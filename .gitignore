@@ -47,3 +47,6 @@ htmlcov/
 .env
 *.keystore
 *.jks
+
+# CodeQL artifacts
+_codeql*

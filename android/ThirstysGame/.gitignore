@@ -1,0 +1,20 @@
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Keystore (never commit)
+*.keystore
+*.jks
+keystore_base64.txt

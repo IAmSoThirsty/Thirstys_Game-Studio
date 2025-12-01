@@ -166,21 +166,21 @@ fi
 
 # Use "xargs" to parse quoted args.
 #
-# With -n://get-content-from-url.com 1 ARG://get-content-from-url.com (://get-content-from-url.com split://get-content-from-url.com into://get-content-from-url.com one://get-content-from-url.com)
-# Use "-d" to specify the delimiter. Default is IFS ://get-content-from-url.com not://get-content-from-url.com reliable ://get-content-from-url.com though.
+# With -n1 we split each arg (split into one).
+# Use "-d" to specify the delimiter. Default is IFS (not reliable though).
 #
 # In Bash we could simply go:
 #
-#   readarray ARGS://get-content-from-url.com < <(://get-content-from-url.com xargs -n1://get-content-from-url.com <<<"$var"://get-content-from-url.com )
+#   readarray ARGS < <( xargs -n1 <<<"$var" )
 #
-# but POSIX://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com shell://get-content-from-url.com (://get-content-from-url.com i.e.://get-content-from-url.com ://get-content-from-url.com #!/bin/sh://get-content-from-url.com )://get-content-from-url.com does not://get-content-from-url.com support://get-content-from-url.com the://get-content-from-url.com array://get-content-from-url.com nor://get-content-from-url.com process://get-content-from-url.com substitution.
+# but POSIX shell (i.e. #!/bin/sh) does not support the array nor process substitution.
 #
-# Hence, we go://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com the manual://get-content-from-url.com way://get-content-from-url.com://get-content-from-url.com://get-content-from-url.com by://get-content-from-url.com using a://get-content-from-url.com temporary://get-content-from-url.com file://get-content-from-url.com://get-content-from-url.com ...
+# Hence, we go the manual way by using a temporary file...
 #
 eval "set -- $(
         printf '%s\n' "$DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS" |
         xargs -n1 |
-        sed ' s~[`528telegrambot$]~\\&~g; ' |
+        sed ' s~[`$"\\]~\\&~g; ' |
         tr '\n' ' '
     )" '"$@"'
 

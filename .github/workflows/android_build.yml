@@ -18,6 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: read
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -70,6 +73,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     if: github.event_name == 'release'
+    
+    permissions:
+      contents: write
     
     steps:
       - name: Download Release AAB

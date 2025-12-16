@@ -243,7 +243,7 @@ class TeamRunner:
             try:
                 proposals.append(FeatureProposal.from_dict(p_data))
             except Exception:
-                pass
+                logger.exception(f"Failed to create FeatureProposal from data: {p_data}")
 
         generator = PRTemplateGenerator()
         pr = generator.generate_agent_run_pr(run_summary, proposals)

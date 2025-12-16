@@ -7,7 +7,7 @@ while ensuring our approach remains F2P-friendly.
 
 import logging
 from dataclasses import dataclass, field
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 from agent.core.interfaces import FeatureProposal
 

@@ -4,7 +4,6 @@ This module provides utilities for generating GitHub Actions
 workflow files for the agent team automation.
 """
 
-import os
 from pathlib import Path
 from typing import Optional
 

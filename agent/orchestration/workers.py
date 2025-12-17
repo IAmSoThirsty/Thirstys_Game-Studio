@@ -6,8 +6,6 @@ agent role in the orchestration system.
 
 import logging
 import time
-from typing import Dict, Any
-
 from agent.core.interfaces import (
     AgentRole,
     Task,

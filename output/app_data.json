@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2025-12-01T15:35:58.521483",
+  "insights_summary": {
+    "total_count": 15,
+    "avg_sentiment": 0.7433333333333334,
+    "top_topics": [
+      [
+        "cosmetics",
+        8
+      ],
+      [
+        "f2p",
+        4
+      ],
+      [
+        "customization",
+        3
+      ],
+      [
+        "gameplay",
+        3
+      ],
+      [
+        "battle_pass",
+        2
+      ],
+      [
+        "progression",
+        2
+      ],
+      [
+        "armor",
+        1
+      ],
+      [
+        "update",
+        1
+      ],
+      [
+        "appreciation",
+        1
+      ],
+      [
+        "social",
+        1
+      ]
+    ],
+    "sources": [
+      "reddit",
+      "discord",
+      "steam"
+    ]
+  },
+  "proposals": [
+    {
+      "title": "Community-Requested: Enhanced Replay",
+      "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "replay",
+      "priority": 0.7478153846153847,
+      "f2p_compliant": true
+    },
+    {
+      "title": "Community-Requested: Enhanced Social",
+      "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "social",
+      "priority": 0.6559384615384616,
+      "f2p_compliant": true
+    },
+    {
+      "title": "Community-Requested: Enhanced Customization",
+      "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "customization",
+      "priority": 0.44126769230769225,
+      "f2p_compliant": true
+    },
+    {
+      "title": "Community-Requested: Enhanced Daily Challenges",
+      "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "daily_challenges",
+      "priority": 0.3198030769230769,
+      "f2p_compliant": true
+    },
+    {
+      "title": "Community-Requested: Enhanced Skins",
+      "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "skins",
+      "priority": 0.2862523076923077,
+      "f2p_compliant": true
+    },
+    {
+      "title": "Community-Requested: Enhanced Emotes",
+      "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "emotes",
+      "priority": 0.2784492307692308,
+      "f2p_compliant": true
+    },
+    {
+      "title": "Community-Requested: Enhanced Profile",
+      "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+      "category": "profile",
+      "priority": 0.2315076923076923,
+      "f2p_compliant": true
+    }
+  ],
+  "f2p_policy_summary": {
+    "core_principles": [
+      "No pay-to-win mechanics",
+      "Cosmetic-only purchases",
+      "Fair progression for all",
+      "No predatory mechanics"
+    ],
+    "what_we_offer": [
+      "Cosmetic items (skins, outfits, effects)",
+      "Quality of life features",
+      "Battle pass with cosmetic rewards"
+    ],
+    "what_we_never_do": [
+      "Sell gameplay advantages",
+      "Use loot boxes with valuable items",
+      "Create artificial time pressure"
+    ]
+  },
+  "storefront_items": [
+    {
+      "id": "skin_001",
+      "name": "Golden Knight Armor",
+      "type": "cosmetic",
+      "price": 500,
+      "currency": "gems",
+      "description": "A dazzling golden armor set. Purely cosmetic."
+    },
+    {
+      "id": "emote_001",
+      "name": "Victory Dance",
+      "type": "emote",
+      "price": 200,
+      "currency": "gems",
+      "description": "Celebrate your wins in style!"
+    },
+    {
+      "id": "bundle_001",
+      "name": "Starter Cosmetic Bundle",
+      "type": "bundle",
+      "price": 1000,
+      "currency": "gems",
+      "description": "3 skins + 2 emotes. Great value!"
+    }
+  ]
+}

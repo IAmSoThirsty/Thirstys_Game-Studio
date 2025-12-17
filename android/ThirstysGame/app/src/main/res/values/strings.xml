@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thirsty\'s Game</string>
+    <string name="insights_title">Community Insights</string>
+    <string name="proposals_title">Feature Proposals</string>
+    <string name="storefront_title">Cosmetic Store</string>
+    <string name="f2p_policy_title">Our F2P Promise</string>
+    <string name="loading">Loading...</string>
+    <string name="error_loading">Error loading data</string>
+    <string name="retry">Retry</string>
+    <string name="no_proposals">No proposals available</string>
+    <string name="cosmetic_only">Cosmetics Only - No Pay-to-Win!</string>
+</resources>

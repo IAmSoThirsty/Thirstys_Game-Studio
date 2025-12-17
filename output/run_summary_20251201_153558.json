@@ -1,0 +1,2962 @@
+{
+  "timestamp": "2025-12-01T15:35:58.512807",
+  "end_time": "2025-12-01T15:35:58.514202",
+  "total_tasks": 5,
+  "successful": 5,
+  "failed": 0,
+  "total_execution_time": 0.0009899139404296875,
+  "queue_summary": {
+    "total_tasks": 5,
+    "completed": 5,
+    "pending": 0,
+    "by_status": {
+      "completed": 5
+    }
+  },
+  "output_data": {
+    "insights": [
+      {
+        "source": "reddit",
+        "content": "Would love to see more character customization options! Maybe different armor styles that don't affect stats?",
+        "sentiment": 0.7,
+        "topics": [
+          "customization",
+          "cosmetics",
+          "armor"
+        ],
+        "author": "reddit_user_1",
+        "timestamp": "2025-12-01T15:35:58.513008",
+        "engagement": {
+          "upvotes": 145,
+          "comments": 23
+        },
+        "category": "feature_request",
+        "priority": 0.38707692307692304
+      },
+      {
+        "source": "reddit",
+        "content": "The new update is amazing! Really appreciate the F2P model.",
+        "sentiment": 0.9,
+        "topics": [
+          "update",
+          "f2p",
+          "appreciation"
+        ],
+        "author": "reddit_user_2",
+        "timestamp": "2025-12-01T15:35:58.513016",
+        "engagement": {
+          "upvotes": 312,
+          "comments": 45
+        },
+        "category": "praise",
+        "priority": 0.6261538461538461
+      },
+      {
+        "source": "reddit",
+        "content": "Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.",
+        "sentiment": 0.5,
+        "topics": [
+          "social",
+          "guild",
+          "clan",
+          "multiplayer"
+        ],
+        "author": "reddit_user_3",
+        "timestamp": "2025-12-01T15:35:58.513019",
+        "engagement": {
+          "upvotes": 256,
+          "comments": 67
+        },
+        "category": "feature_request",
+        "priority": 0.5963076923076923
+      },
+      {
+        "source": "reddit",
+        "content": "The battle pass is fair and purely cosmetic. This is how F2P should be done!",
+        "sentiment": 0.8,
+        "topics": [
+          "battle_pass",
+          "cosmetics",
+          "f2p"
+        ],
+        "author": "reddit_user_4",
+        "timestamp": "2025-12-01T15:35:58.513022",
+        "engagement": {
+          "upvotes": 189,
+          "comments": 12
+        },
+        "category": "praise",
+        "priority": 0.3861538461538461
+      },
+      {
+        "source": "reddit",
+        "content": "Suggestion: Add daily challenges for earning cosmetic currency.",
+        "sentiment": 0.6,
+        "topics": [
+          "daily_challenges",
+          "currency",
+          "cosmetics"
+        ],
+        "author": "reddit_user_5",
+        "timestamp": "2025-12-01T15:35:58.513023",
+        "engagement": {
+          "upvotes": 98,
+          "comments": 15
+        },
+        "category": "feature_request",
+        "priority": 0.2855384615384615
+      },
+      {
+        "source": "discord",
+        "content": "The new seasonal event is so much fun! Love that all rewards are earnable through gameplay.",
+        "sentiment": 0.85,
+        "topics": [
+          "event",
+          "seasonal",
+          "rewards",
+          "gameplay"
+        ],
+        "author": "discord_user_1",
+        "timestamp": "2025-12-01T15:35:58.513113",
+        "engagement": {
+          "reactions": 45,
+          "replies": 8
+        },
+        "category": "praise",
+        "priority": 0.15846153846153846
+      },
+      {
+        "source": "discord",
+        "content": "Would be cool to have emote wheel customization. Could be a great cosmetic option!",
+        "sentiment": 0.6,
+        "topics": [
+          "emotes",
+          "customization",
+          "cosmetics"
+        ],
+        "author": "discord_user_2",
+        "timestamp": "2025-12-01T15:35:58.513118",
+        "engagement": {
+          "reactions": 78,
+          "replies": 15
+        },
+        "category": "feature_request",
+        "priority": 0.2486153846153846
+      },
+      {
+        "source": "discord",
+        "content": "The matchmaking feels balanced. Good job on the MMR system!",
+        "sentiment": 0.7,
+        "topics": [
+          "matchmaking",
+          "balance",
+          "mmr"
+        ],
+        "author": "discord_user_3",
+        "timestamp": "2025-12-01T15:35:58.513122",
+        "engagement": {
+          "reactions": 34,
+          "replies": 5
+        },
+        "category": "praise",
+        "priority": 0.13692307692307693
+      },
+      {
+        "source": "discord",
+        "content": "Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.",
+        "sentiment": 0.5,
+        "topics": [
+          "profile",
+          "customization",
+          "cosmetics",
+          "progression"
+        ],
+        "author": "discord_user_4",
+        "timestamp": "2025-12-01T15:35:58.513126",
+        "engagement": {
+          "reactions": 92,
+          "replies": 22
+        },
+        "category": "feature_request",
+        "priority": 0.21046153846153845
+      },
+      {
+        "source": "discord",
+        "content": "The tutorial was clear and the game respects my time. No forced ads or energy systems. Refreshing!",
+        "sentiment": 0.9,
+        "topics": [
+          "tutorial",
+          "respect",
+          "f2p",
+          "no_ads"
+        ],
+        "author": "discord_user_5",
+        "timestamp": "2025-12-01T15:35:58.513129",
+        "engagement": {
+          "reactions": 156,
+          "replies": 31
+        },
+        "category": "praise",
+        "priority": 0.36461538461538456
+      },
+      {
+        "source": "steam",
+        "content": "Excellent F2P game! No pay-to-win mechanics, just cosmetics. Played for 200 hours and never felt the need to spend money.",
+        "sentiment": 0.9,
+        "topics": [
+          "f2p",
+          "cosmetics",
+          "no_p2w",
+          "gameplay"
+        ],
+        "author": "steam_user_1",
+        "timestamp": "2025-12-01T15:35:58.513243",
+        "engagement": {
+          "helpful": 234,
+          "funny": 12
+        },
+        "category": "review_positive",
+        "priority": 0.45538461538461533
+      },
+      {
+        "source": "steam",
+        "content": "Great game! Would love to see more weapon skins. Maybe animated ones as premium cosmetics?",
+        "sentiment": 0.8,
+        "topics": [
+          "skins",
+          "weapons",
+          "cosmetics",
+          "premium"
+        ],
+        "author": "steam_user_2",
+        "timestamp": "2025-12-01T15:35:58.513249",
+        "engagement": {
+          "helpful": 89,
+          "funny": 3
+        },
+        "category": "feature_request",
+        "priority": 0.24676923076923074
+      },
+      {
+        "source": "steam",
+        "content": "The battle pass is well-designed. Good value and everything is achievable through gameplay.",
+        "sentiment": 0.85,
+        "topics": [
+          "battle_pass",
+          "value",
+          "gameplay",
+          "progression"
+        ],
+        "author": "steam_user_3",
+        "timestamp": "2025-12-01T15:35:58.513253",
+        "engagement": {
+          "helpful": 156,
+          "funny": 5
+        },
+        "category": "review_positive",
+        "priority": 0.32461538461538464
+      },
+      {
+        "source": "steam",
+        "content": "Suggestion: Add a replay system and theater mode. Would be great for content creators!",
+        "sentiment": 0.6,
+        "topics": [
+          "replay",
+          "theater",
+          "content_creation",
+          "streaming"
+        ],
+        "author": "steam_user_4",
+        "timestamp": "2025-12-01T15:35:58.513257",
+        "engagement": {
+          "helpful": 312,
+          "funny": 8
+        },
+        "category": "feature_request",
+        "priority": 0.6676923076923077
+      },
+      {
+        "source": "steam",
+        "content": "Love the cosmetic shop! Reasonable prices and no FOMO tactics. This is ethical F2P done right.",
+        "sentiment": 0.95,
+        "topics": [
+          "shop",
+          "cosmetics",
+          "pricing",
+          "ethical_f2p"
+        ],
+        "author": "steam_user_5",
+        "timestamp": "2025-12-01T15:35:58.513260",
+        "engagement": {
+          "helpful": 445,
+          "funny": 21
+        },
+        "category": "review_positive",
+        "priority": 0.7938461538461539
+      }
+    ],
+    "summary": {
+      "count": 15,
+      "avg_sentiment": 0.7433333333333334,
+      "categories": {
+        "feature_request": 7,
+        "praise": 5,
+        "review_positive": 3
+      },
+      "top_topics": [
+        [
+          "cosmetics",
+          8
+        ],
+        [
+          "f2p",
+          4
+        ],
+        [
+          "customization",
+          3
+        ],
+        [
+          "gameplay",
+          3
+        ],
+        [
+          "battle_pass",
+          2
+        ],
+        [
+          "progression",
+          2
+        ],
+        [
+          "armor",
+          1
+        ],
+        [
+          "update",
+          1
+        ],
+        [
+          "appreciation",
+          1
+        ],
+        [
+          "social",
+          1
+        ]
+      ],
+      "sources": {
+        "reddit": 5,
+        "discord": 5,
+        "steam": 5
+      },
+      "feature_requests": [
+        {
+          "source": "reddit",
+          "content": "Would love to see more character customization options! Maybe different armor styles that don't affect stats?",
+          "sentiment": 0.7,
+          "topics": [
+            "customization",
+            "cosmetics",
+            "armor"
+          ],
+          "author": "reddit_user_1",
+          "timestamp": "2025-12-01T15:35:58.513008",
+          "engagement": {
+            "upvotes": 145,
+            "comments": 23
+          },
+          "category": "feature_request",
+          "priority": 0.38707692307692304
+        },
+        {
+          "source": "reddit",
+          "content": "Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.",
+          "sentiment": 0.5,
+          "topics": [
+            "social",
+            "guild",
+            "clan",
+            "multiplayer"
+          ],
+          "author": "reddit_user_3",
+          "timestamp": "2025-12-01T15:35:58.513019",
+          "engagement": {
+            "upvotes": 256,
+            "comments": 67
+          },
+          "category": "feature_request",
+          "priority": 0.5963076923076923
+        },
+        {
+          "source": "reddit",
+          "content": "Suggestion: Add daily challenges for earning cosmetic currency.",
+          "sentiment": 0.6,
+          "topics": [
+            "daily_challenges",
+            "currency",
+            "cosmetics"
+          ],
+          "author": "reddit_user_5",
+          "timestamp": "2025-12-01T15:35:58.513023",
+          "engagement": {
+            "upvotes": 98,
+            "comments": 15
+          },
+          "category": "feature_request",
+          "priority": 0.2855384615384615
+        },
+        {
+          "source": "discord",
+          "content": "Would be cool to have emote wheel customization. Could be a great cosmetic option!",
+          "sentiment": 0.6,
+          "topics": [
+            "emotes",
+            "customization",
+            "cosmetics"
+          ],
+          "author": "discord_user_2",
+          "timestamp": "2025-12-01T15:35:58.513118",
+          "engagement": {
+            "reactions": 78,
+            "replies": 15
+          },
+          "category": "feature_request",
+          "priority": 0.2486153846153846
+        },
+        {
+          "source": "discord",
+          "content": "Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.",
+          "sentiment": 0.5,
+          "topics": [
+            "profile",
+            "customization",
+            "cosmetics",
+            "progression"
+          ],
+          "author": "discord_user_4",
+          "timestamp": "2025-12-01T15:35:58.513126",
+          "engagement": {
+            "reactions": 92,
+            "replies": 22
+          },
+          "category": "feature_request",
+          "priority": 0.21046153846153845
+        },
+        {
+          "source": "steam",
+          "content": "Great game! Would love to see more weapon skins. Maybe animated ones as premium cosmetics?",
+          "sentiment": 0.8,
+          "topics": [
+            "skins",
+            "weapons",
+            "cosmetics",
+            "premium"
+          ],
+          "author": "steam_user_2",
+          "timestamp": "2025-12-01T15:35:58.513249",
+          "engagement": {
+            "helpful": 89,
+            "funny": 3
+          },
+          "category": "feature_request",
+          "priority": 0.24676923076923074
+        },
+        {
+          "source": "steam",
+          "content": "Suggestion: Add a replay system and theater mode. Would be great for content creators!",
+          "sentiment": 0.6,
+          "topics": [
+            "replay",
+            "theater",
+            "content_creation",
+            "streaming"
+          ],
+          "author": "steam_user_4",
+          "timestamp": "2025-12-01T15:35:58.513257",
+          "engagement": {
+            "helpful": 312,
+            "funny": 8
+          },
+          "category": "feature_request",
+          "priority": 0.6676923076923077
+        }
+      ]
+    },
+    "proposals": [
+      {
+        "title": "Community-Requested: Enhanced Replay",
+        "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "5505780214212392976"
+        ],
+        "category": "replay",
+        "monetization_type": "qol",
+        "priority": 0.7478153846153847,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [
+          "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.",
+          "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+          "[Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable"
+        ],
+        "created_at": "2025-12-01T15:35:58.513475"
+      },
+      {
+        "title": "Community-Requested: Enhanced Social",
+        "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "-329050704843375976"
+        ],
+        "category": "social",
+        "monetization_type": "cosmetic",
+        "priority": 0.6559384615384616,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [
+          "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+        ],
+        "created_at": "2025-12-01T15:35:58.513488"
+      },
+      {
+        "title": "Community-Requested: Enhanced Customization",
+        "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "2399172018604771826"
+        ],
+        "category": "customization",
+        "monetization_type": "cosmetic",
+        "priority": 0.44126769230769225,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [
+          "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+        ],
+        "created_at": "2025-12-01T15:35:58.513496"
+      },
+      {
+        "title": "Community-Requested: Enhanced Daily Challenges",
+        "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "-4147500959531896461"
+        ],
+        "category": "daily_challenges",
+        "monetization_type": "qol",
+        "priority": 0.3198030769230769,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [],
+        "created_at": "2025-12-01T15:35:58.513503"
+      },
+      {
+        "title": "Community-Requested: Enhanced Skins",
+        "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "-8421236405130980985"
+        ],
+        "category": "skins",
+        "monetization_type": "qol",
+        "priority": 0.2862523076923077,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [
+          "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+        ],
+        "created_at": "2025-12-01T15:35:58.513515"
+      },
+      {
+        "title": "Community-Requested: Enhanced Emotes",
+        "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "-4520235339507098737"
+        ],
+        "category": "emotes",
+        "monetization_type": "qol",
+        "priority": 0.2784492307692308,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [
+          "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+        ],
+        "created_at": "2025-12-01T15:35:58.513510"
+      },
+      {
+        "title": "Community-Requested: Enhanced Profile",
+        "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+        "source_insights": [
+          "1455041504579180769"
+        ],
+        "category": "profile",
+        "monetization_type": "qol",
+        "priority": 0.2315076923076923,
+        "f2p_compliant": true,
+        "guardrail_notes": [],
+        "comparative_notes": [
+          "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+          "[Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups."
+        ],
+        "created_at": "2025-12-01T15:35:58.513523"
+      }
+    ],
+    "count": 7,
+    "validation": {
+      "total_proposals": 7,
+      "compliant_proposals": 7,
+      "compliance_rate": 1.0,
+      "results": [
+        {
+          "proposal_title": "Community-Requested: Enhanced Replay",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        },
+        {
+          "proposal_title": "Community-Requested: Enhanced Social",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        },
+        {
+          "proposal_title": "Community-Requested: Enhanced Customization",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        },
+        {
+          "proposal_title": "Community-Requested: Enhanced Daily Challenges",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        },
+        {
+          "proposal_title": "Community-Requested: Enhanced Skins",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        },
+        {
+          "proposal_title": "Community-Requested: Enhanced Emotes",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        },
+        {
+          "proposal_title": "Community-Requested: Enhanced Profile",
+          "f2p_compliant": true,
+          "checks": [
+            {
+              "passed": true,
+              "guardrail": "no_pay_to_win",
+              "message": "No pay-to-win mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "cosmetic_only",
+              "message": "Monetization type is acceptable",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_gameplay_advantage",
+              "message": "No gameplay advantage in paid content",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "fair_progression",
+              "message": "Progression appears fair for all players",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "transparent_odds",
+              "message": "No undisclosed random elements",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "no_loot_boxes",
+              "message": "No loot box mechanics detected",
+              "suggestions": []
+            },
+            {
+              "passed": true,
+              "guardrail": "accessible_content",
+              "message": "Core content appears accessible to all players",
+              "suggestions": []
+            }
+          ]
+        }
+      ]
+    },
+    "compliant_count": 7,
+    "total_count": 7,
+    "competitive_report": {
+      "total_insights": 6,
+      "f2p_adaptable": 5,
+      "to_avoid": 1,
+      "categories": {
+        "social": 1,
+        "customization": 1,
+        "events": 1,
+        "progression": 1,
+        "monetization": 1,
+        "content": 1
+      },
+      "insights": [
+        {
+          "source_game": "Age of Origins",
+          "feature_category": "social",
+          "description": "Alliance/Guild System with territory control",
+          "pros": [
+            "Strong social engagement",
+            "Cooperative gameplay",
+            "Long-term retention"
+          ],
+          "cons": [
+            "Can create power imbalances",
+            "VIP systems give unfair advantages"
+          ],
+          "f2p_adaptable": true,
+          "adaptation_notes": "Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+        },
+        {
+          "source_game": "Age of Origins",
+          "feature_category": "customization",
+          "description": "Commander/Hero customization and skins",
+          "pros": [
+            "High player attachment",
+            "Good monetization potential",
+            "Visual differentiation"
+          ],
+          "cons": [
+            "Often tied to stat bonuses"
+          ],
+          "f2p_adaptable": true,
+          "adaptation_notes": "Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+        },
+        {
+          "source_game": "Age of Origins",
+          "feature_category": "events",
+          "description": "Regular seasonal events with exclusive rewards",
+          "pros": [
+            "Keeps game fresh",
+            "Engagement spikes",
+            "Community participation"
+          ],
+          "cons": [
+            "FOMO tactics in limited exclusives",
+            "Event passes can be expensive"
+          ],
+          "f2p_adaptable": true,
+          "adaptation_notes": "Run events with cosmetic rewards. Bring back seasonal items in future. No FOMO pressure."
+        },
+        {
+          "source_game": "Age of Origins",
+          "feature_category": "progression",
+          "description": "Multiple progression systems (base, heroes, tech)",
+          "pros": [
+            "Deep gameplay systems",
+            "Long-term goals",
+            "Varied gameplay"
+          ],
+          "cons": [
+            "Can be pay-to-progress faster",
+            "Overwhelming complexity"
+          ],
+          "f2p_adaptable": true,
+          "adaptation_notes": "Multiple progression paths but equal time investment for all players. No paid speedups."
+        },
+        {
+          "source_game": "Age of Origins",
+          "feature_category": "monetization",
+          "description": "VIP system with subscription benefits",
+          "pros": [
+            "Predictable revenue",
+            "Player commitment"
+          ],
+          "cons": [
+            "Creates class divide",
+            "Often includes gameplay advantages"
+          ],
+          "f2p_adaptable": false,
+          "adaptation_notes": "Avoid VIP systems entirely. Use battle pass with purely cosmetic rewards instead."
+        },
+        {
+          "source_game": "Age of Origins",
+          "feature_category": "content",
+          "description": "Regular content updates with new zones/modes",
+          "pros": [
+            "Keeps game fresh",
+            "New challenges",
+            "Returning players"
+          ],
+          "cons": [
+            "New content can invalidate old progression"
+          ],
+          "f2p_adaptable": true,
+          "adaptation_notes": "Regular free content updates. New content should complement, not replace existing progression."
+        }
+      ],
+      "recommendations": [
+        {
+          "category": "social",
+          "recommendation": "Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+        },
+        {
+          "category": "customization",
+          "recommendation": "Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+        },
+        {
+          "category": "events",
+          "recommendation": "Run events with cosmetic rewards. Bring back seasonal items in future. No FOMO pressure."
+        },
+        {
+          "category": "progression",
+          "recommendation": "Multiple progression paths but equal time investment for all players. No paid speedups."
+        },
+        {
+          "category": "content",
+          "recommendation": "Regular free content updates. New content should complement, not replace existing progression."
+        }
+      ],
+      "avoid_patterns": [
+        {
+          "feature": "VIP system with subscription benefits",
+          "reason": "Creates class divide, Often includes gameplay advantages"
+        }
+      ]
+    },
+    "issues": [
+      {
+        "title": "[Feature] Community-Requested: Enhanced Replay",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** replay\n- **Priority Score:** 0.75\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog - High Priority",
+        "priority": "high",
+        "created_at": "2025-12-01T15:35:58.514114"
+      },
+      {
+        "title": "[Feature] Community-Requested: Enhanced Social",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** social\n- **Priority Score:** 0.66\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "social-features",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog - High Priority",
+        "priority": "medium",
+        "created_at": "2025-12-01T15:35:58.514126"
+      },
+      {
+        "title": "[Feature] Community-Requested: Enhanced Customization",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** customization\n- **Priority Score:** 0.44\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "customization",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog",
+        "priority": "medium",
+        "created_at": "2025-12-01T15:35:58.514133"
+      },
+      {
+        "title": "[Feature] Community-Requested: Enhanced Daily Challenges",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** daily_challenges\n- **Priority Score:** 0.32\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog",
+        "priority": "low",
+        "created_at": "2025-12-01T15:35:58.514138"
+      },
+      {
+        "title": "[Feature] Community-Requested: Enhanced Skins",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** skins\n- **Priority Score:** 0.29\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog",
+        "priority": "low",
+        "created_at": "2025-12-01T15:35:58.514143"
+      },
+      {
+        "title": "[Feature] Community-Requested: Enhanced Emotes",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** emotes\n- **Priority Score:** 0.28\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog",
+        "priority": "low",
+        "created_at": "2025-12-01T15:35:58.514147"
+      },
+      {
+        "title": "[Feature] Community-Requested: Enhanced Profile",
+        "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** profile\n- **Priority Score:** 0.23\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+        "labels": [
+          "community-driven",
+          "auto-generated",
+          "enhancement",
+          "f2p-approved"
+        ],
+        "assignees": [],
+        "milestone": "Backlog",
+        "priority": "low",
+        "created_at": "2025-12-01T15:35:58.514152"
+      }
+    ],
+    "issue_report": {
+      "total_issues": 7,
+      "by_priority": {
+        "high": 1,
+        "medium": 2,
+        "low": 4
+      },
+      "issues": [
+        {
+          "title": "[Feature] Community-Requested: Enhanced Replay",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** replay\n- **Priority Score:** 0.75\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog - High Priority",
+          "priority": "high",
+          "created_at": "2025-12-01T15:35:58.514114"
+        },
+        {
+          "title": "[Feature] Community-Requested: Enhanced Social",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** social\n- **Priority Score:** 0.66\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "social-features",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog - High Priority",
+          "priority": "medium",
+          "created_at": "2025-12-01T15:35:58.514126"
+        },
+        {
+          "title": "[Feature] Community-Requested: Enhanced Customization",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** customization\n- **Priority Score:** 0.44\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "customization",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog",
+          "priority": "medium",
+          "created_at": "2025-12-01T15:35:58.514133"
+        },
+        {
+          "title": "[Feature] Community-Requested: Enhanced Daily Challenges",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** daily_challenges\n- **Priority Score:** 0.32\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog",
+          "priority": "low",
+          "created_at": "2025-12-01T15:35:58.514138"
+        },
+        {
+          "title": "[Feature] Community-Requested: Enhanced Skins",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** skins\n- **Priority Score:** 0.29\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog",
+          "priority": "low",
+          "created_at": "2025-12-01T15:35:58.514143"
+        },
+        {
+          "title": "[Feature] Community-Requested: Enhanced Emotes",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** emotes\n- **Priority Score:** 0.28\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog",
+          "priority": "low",
+          "created_at": "2025-12-01T15:35:58.514147"
+        },
+        {
+          "title": "[Feature] Community-Requested: Enhanced Profile",
+          "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** profile\n- **Priority Score:** 0.23\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+          "labels": [
+            "community-driven",
+            "auto-generated",
+            "enhancement",
+            "f2p-approved"
+          ],
+          "assignees": [],
+          "milestone": "Backlog",
+          "priority": "low",
+          "created_at": "2025-12-01T15:35:58.514152"
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "task_id": "e7231d9a-f23c-4797-8fd4-fc7009411cb6",
+      "success": true,
+      "output_data": {
+        "insights": [
+          {
+            "source": "reddit",
+            "content": "Would love to see more character customization options! Maybe different armor styles that don't affect stats?",
+            "sentiment": 0.7,
+            "topics": [
+              "customization",
+              "cosmetics",
+              "armor"
+            ],
+            "author": "reddit_user_1",
+            "timestamp": "2025-12-01T15:35:58.513008",
+            "engagement": {
+              "upvotes": 145,
+              "comments": 23
+            },
+            "category": "feature_request",
+            "priority": 0.38707692307692304
+          },
+          {
+            "source": "reddit",
+            "content": "The new update is amazing! Really appreciate the F2P model.",
+            "sentiment": 0.9,
+            "topics": [
+              "update",
+              "f2p",
+              "appreciation"
+            ],
+            "author": "reddit_user_2",
+            "timestamp": "2025-12-01T15:35:58.513016",
+            "engagement": {
+              "upvotes": 312,
+              "comments": 45
+            },
+            "category": "praise",
+            "priority": 0.6261538461538461
+          },
+          {
+            "source": "reddit",
+            "content": "Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.",
+            "sentiment": 0.5,
+            "topics": [
+              "social",
+              "guild",
+              "clan",
+              "multiplayer"
+            ],
+            "author": "reddit_user_3",
+            "timestamp": "2025-12-01T15:35:58.513019",
+            "engagement": {
+              "upvotes": 256,
+              "comments": 67
+            },
+            "category": "feature_request",
+            "priority": 0.5963076923076923
+          },
+          {
+            "source": "reddit",
+            "content": "The battle pass is fair and purely cosmetic. This is how F2P should be done!",
+            "sentiment": 0.8,
+            "topics": [
+              "battle_pass",
+              "cosmetics",
+              "f2p"
+            ],
+            "author": "reddit_user_4",
+            "timestamp": "2025-12-01T15:35:58.513022",
+            "engagement": {
+              "upvotes": 189,
+              "comments": 12
+            },
+            "category": "praise",
+            "priority": 0.3861538461538461
+          },
+          {
+            "source": "reddit",
+            "content": "Suggestion: Add daily challenges for earning cosmetic currency.",
+            "sentiment": 0.6,
+            "topics": [
+              "daily_challenges",
+              "currency",
+              "cosmetics"
+            ],
+            "author": "reddit_user_5",
+            "timestamp": "2025-12-01T15:35:58.513023",
+            "engagement": {
+              "upvotes": 98,
+              "comments": 15
+            },
+            "category": "feature_request",
+            "priority": 0.2855384615384615
+          },
+          {
+            "source": "discord",
+            "content": "The new seasonal event is so much fun! Love that all rewards are earnable through gameplay.",
+            "sentiment": 0.85,
+            "topics": [
+              "event",
+              "seasonal",
+              "rewards",
+              "gameplay"
+            ],
+            "author": "discord_user_1",
+            "timestamp": "2025-12-01T15:35:58.513113",
+            "engagement": {
+              "reactions": 45,
+              "replies": 8
+            },
+            "category": "praise",
+            "priority": 0.15846153846153846
+          },
+          {
+            "source": "discord",
+            "content": "Would be cool to have emote wheel customization. Could be a great cosmetic option!",
+            "sentiment": 0.6,
+            "topics": [
+              "emotes",
+              "customization",
+              "cosmetics"
+            ],
+            "author": "discord_user_2",
+            "timestamp": "2025-12-01T15:35:58.513118",
+            "engagement": {
+              "reactions": 78,
+              "replies": 15
+            },
+            "category": "feature_request",
+            "priority": 0.2486153846153846
+          },
+          {
+            "source": "discord",
+            "content": "The matchmaking feels balanced. Good job on the MMR system!",
+            "sentiment": 0.7,
+            "topics": [
+              "matchmaking",
+              "balance",
+              "mmr"
+            ],
+            "author": "discord_user_3",
+            "timestamp": "2025-12-01T15:35:58.513122",
+            "engagement": {
+              "reactions": 34,
+              "replies": 5
+            },
+            "category": "praise",
+            "priority": 0.13692307692307693
+          },
+          {
+            "source": "discord",
+            "content": "Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.",
+            "sentiment": 0.5,
+            "topics": [
+              "profile",
+              "customization",
+              "cosmetics",
+              "progression"
+            ],
+            "author": "discord_user_4",
+            "timestamp": "2025-12-01T15:35:58.513126",
+            "engagement": {
+              "reactions": 92,
+              "replies": 22
+            },
+            "category": "feature_request",
+            "priority": 0.21046153846153845
+          },
+          {
+            "source": "discord",
+            "content": "The tutorial was clear and the game respects my time. No forced ads or energy systems. Refreshing!",
+            "sentiment": 0.9,
+            "topics": [
+              "tutorial",
+              "respect",
+              "f2p",
+              "no_ads"
+            ],
+            "author": "discord_user_5",
+            "timestamp": "2025-12-01T15:35:58.513129",
+            "engagement": {
+              "reactions": 156,
+              "replies": 31
+            },
+            "category": "praise",
+            "priority": 0.36461538461538456
+          },
+          {
+            "source": "steam",
+            "content": "Excellent F2P game! No pay-to-win mechanics, just cosmetics. Played for 200 hours and never felt the need to spend money.",
+            "sentiment": 0.9,
+            "topics": [
+              "f2p",
+              "cosmetics",
+              "no_p2w",
+              "gameplay"
+            ],
+            "author": "steam_user_1",
+            "timestamp": "2025-12-01T15:35:58.513243",
+            "engagement": {
+              "helpful": 234,
+              "funny": 12
+            },
+            "category": "review_positive",
+            "priority": 0.45538461538461533
+          },
+          {
+            "source": "steam",
+            "content": "Great game! Would love to see more weapon skins. Maybe animated ones as premium cosmetics?",
+            "sentiment": 0.8,
+            "topics": [
+              "skins",
+              "weapons",
+              "cosmetics",
+              "premium"
+            ],
+            "author": "steam_user_2",
+            "timestamp": "2025-12-01T15:35:58.513249",
+            "engagement": {
+              "helpful": 89,
+              "funny": 3
+            },
+            "category": "feature_request",
+            "priority": 0.24676923076923074
+          },
+          {
+            "source": "steam",
+            "content": "The battle pass is well-designed. Good value and everything is achievable through gameplay.",
+            "sentiment": 0.85,
+            "topics": [
+              "battle_pass",
+              "value",
+              "gameplay",
+              "progression"
+            ],
+            "author": "steam_user_3",
+            "timestamp": "2025-12-01T15:35:58.513253",
+            "engagement": {
+              "helpful": 156,
+              "funny": 5
+            },
+            "category": "review_positive",
+            "priority": 0.32461538461538464
+          },
+          {
+            "source": "steam",
+            "content": "Suggestion: Add a replay system and theater mode. Would be great for content creators!",
+            "sentiment": 0.6,
+            "topics": [
+              "replay",
+              "theater",
+              "content_creation",
+              "streaming"
+            ],
+            "author": "steam_user_4",
+            "timestamp": "2025-12-01T15:35:58.513257",
+            "engagement": {
+              "helpful": 312,
+              "funny": 8
+            },
+            "category": "feature_request",
+            "priority": 0.6676923076923077
+          },
+          {
+            "source": "steam",
+            "content": "Love the cosmetic shop! Reasonable prices and no FOMO tactics. This is ethical F2P done right.",
+            "sentiment": 0.95,
+            "topics": [
+              "shop",
+              "cosmetics",
+              "pricing",
+              "ethical_f2p"
+            ],
+            "author": "steam_user_5",
+            "timestamp": "2025-12-01T15:35:58.513260",
+            "engagement": {
+              "helpful": 445,
+              "funny": 21
+            },
+            "category": "review_positive",
+            "priority": 0.7938461538461539
+          }
+        ],
+        "summary": {
+          "count": 15,
+          "avg_sentiment": 0.7433333333333334,
+          "categories": {
+            "feature_request": 7,
+            "praise": 5,
+            "review_positive": 3
+          },
+          "top_topics": [
+            [
+              "cosmetics",
+              8
+            ],
+            [
+              "f2p",
+              4
+            ],
+            [
+              "customization",
+              3
+            ],
+            [
+              "gameplay",
+              3
+            ],
+            [
+              "battle_pass",
+              2
+            ],
+            [
+              "progression",
+              2
+            ],
+            [
+              "armor",
+              1
+            ],
+            [
+              "update",
+              1
+            ],
+            [
+              "appreciation",
+              1
+            ],
+            [
+              "social",
+              1
+            ]
+          ],
+          "sources": {
+            "reddit": 5,
+            "discord": 5,
+            "steam": 5
+          },
+          "feature_requests": [
+            {
+              "source": "reddit",
+              "content": "Would love to see more character customization options! Maybe different armor styles that don't affect stats?",
+              "sentiment": 0.7,
+              "topics": [
+                "customization",
+                "cosmetics",
+                "armor"
+              ],
+              "author": "reddit_user_1",
+              "timestamp": "2025-12-01T15:35:58.513008",
+              "engagement": {
+                "upvotes": 145,
+                "comments": 23
+              },
+              "category": "feature_request",
+              "priority": 0.38707692307692304
+            },
+            {
+              "source": "reddit",
+              "content": "Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.",
+              "sentiment": 0.5,
+              "topics": [
+                "social",
+                "guild",
+                "clan",
+                "multiplayer"
+              ],
+              "author": "reddit_user_3",
+              "timestamp": "2025-12-01T15:35:58.513019",
+              "engagement": {
+                "upvotes": 256,
+                "comments": 67
+              },
+              "category": "feature_request",
+              "priority": 0.5963076923076923
+            },
+            {
+              "source": "reddit",
+              "content": "Suggestion: Add daily challenges for earning cosmetic currency.",
+              "sentiment": 0.6,
+              "topics": [
+                "daily_challenges",
+                "currency",
+                "cosmetics"
+              ],
+              "author": "reddit_user_5",
+              "timestamp": "2025-12-01T15:35:58.513023",
+              "engagement": {
+                "upvotes": 98,
+                "comments": 15
+              },
+              "category": "feature_request",
+              "priority": 0.2855384615384615
+            },
+            {
+              "source": "discord",
+              "content": "Would be cool to have emote wheel customization. Could be a great cosmetic option!",
+              "sentiment": 0.6,
+              "topics": [
+                "emotes",
+                "customization",
+                "cosmetics"
+              ],
+              "author": "discord_user_2",
+              "timestamp": "2025-12-01T15:35:58.513118",
+              "engagement": {
+                "reactions": 78,
+                "replies": 15
+              },
+              "category": "feature_request",
+              "priority": 0.2486153846153846
+            },
+            {
+              "source": "discord",
+              "content": "Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.",
+              "sentiment": 0.5,
+              "topics": [
+                "profile",
+                "customization",
+                "cosmetics",
+                "progression"
+              ],
+              "author": "discord_user_4",
+              "timestamp": "2025-12-01T15:35:58.513126",
+              "engagement": {
+                "reactions": 92,
+                "replies": 22
+              },
+              "category": "feature_request",
+              "priority": 0.21046153846153845
+            },
+            {
+              "source": "steam",
+              "content": "Great game! Would love to see more weapon skins. Maybe animated ones as premium cosmetics?",
+              "sentiment": 0.8,
+              "topics": [
+                "skins",
+                "weapons",
+                "cosmetics",
+                "premium"
+              ],
+              "author": "steam_user_2",
+              "timestamp": "2025-12-01T15:35:58.513249",
+              "engagement": {
+                "helpful": 89,
+                "funny": 3
+              },
+              "category": "feature_request",
+              "priority": 0.24676923076923074
+            },
+            {
+              "source": "steam",
+              "content": "Suggestion: Add a replay system and theater mode. Would be great for content creators!",
+              "sentiment": 0.6,
+              "topics": [
+                "replay",
+                "theater",
+                "content_creation",
+                "streaming"
+              ],
+              "author": "steam_user_4",
+              "timestamp": "2025-12-01T15:35:58.513257",
+              "engagement": {
+                "helpful": 312,
+                "funny": 8
+              },
+              "category": "feature_request",
+              "priority": 0.6676923076923077
+            }
+          ]
+        },
+        "proposals": [
+          {
+            "title": "Community-Requested: Enhanced Replay",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "5505780214212392976"
+            ],
+            "category": "replay",
+            "monetization_type": "qol",
+            "priority": 0.7478153846153847,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.",
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable"
+            ],
+            "created_at": "2025-12-01T15:35:58.513475"
+          },
+          {
+            "title": "Community-Requested: Enhanced Social",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-329050704843375976"
+            ],
+            "category": "social",
+            "monetization_type": "cosmetic",
+            "priority": 0.6559384615384616,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+            ],
+            "created_at": "2025-12-01T15:35:58.513488"
+          },
+          {
+            "title": "Community-Requested: Enhanced Customization",
+            "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "2399172018604771826"
+            ],
+            "category": "customization",
+            "monetization_type": "cosmetic",
+            "priority": 0.44126769230769225,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513496"
+          },
+          {
+            "title": "Community-Requested: Enhanced Daily Challenges",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4147500959531896461"
+            ],
+            "category": "daily_challenges",
+            "monetization_type": "qol",
+            "priority": 0.3198030769230769,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [],
+            "created_at": "2025-12-01T15:35:58.513503"
+          },
+          {
+            "title": "Community-Requested: Enhanced Skins",
+            "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-8421236405130980985"
+            ],
+            "category": "skins",
+            "monetization_type": "qol",
+            "priority": 0.2862523076923077,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513515"
+          },
+          {
+            "title": "Community-Requested: Enhanced Emotes",
+            "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4520235339507098737"
+            ],
+            "category": "emotes",
+            "monetization_type": "qol",
+            "priority": 0.2784492307692308,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513510"
+          },
+          {
+            "title": "Community-Requested: Enhanced Profile",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "1455041504579180769"
+            ],
+            "category": "profile",
+            "monetization_type": "qol",
+            "priority": 0.2315076923076923,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups."
+            ],
+            "created_at": "2025-12-01T15:35:58.513523"
+          }
+        ]
+      },
+      "error": null,
+      "execution_time": 0.0006110668182373047
+    },
+    {
+      "task_id": "2f730e61-f044-4735-9a08-c33a712e02a6",
+      "success": true,
+      "output_data": {
+        "proposals": [
+          {
+            "title": "Community-Requested: Enhanced Replay",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "5505780214212392976"
+            ],
+            "category": "replay",
+            "monetization_type": "qol",
+            "priority": 0.7478153846153847,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.",
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable"
+            ],
+            "created_at": "2025-12-01T15:35:58.513475"
+          },
+          {
+            "title": "Community-Requested: Enhanced Social",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-329050704843375976"
+            ],
+            "category": "social",
+            "monetization_type": "cosmetic",
+            "priority": 0.6559384615384616,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+            ],
+            "created_at": "2025-12-01T15:35:58.513488"
+          },
+          {
+            "title": "Community-Requested: Enhanced Customization",
+            "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "2399172018604771826"
+            ],
+            "category": "customization",
+            "monetization_type": "cosmetic",
+            "priority": 0.44126769230769225,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513496"
+          },
+          {
+            "title": "Community-Requested: Enhanced Daily Challenges",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4147500959531896461"
+            ],
+            "category": "daily_challenges",
+            "monetization_type": "qol",
+            "priority": 0.3198030769230769,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [],
+            "created_at": "2025-12-01T15:35:58.513503"
+          },
+          {
+            "title": "Community-Requested: Enhanced Skins",
+            "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-8421236405130980985"
+            ],
+            "category": "skins",
+            "monetization_type": "qol",
+            "priority": 0.2862523076923077,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513515"
+          },
+          {
+            "title": "Community-Requested: Enhanced Emotes",
+            "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4520235339507098737"
+            ],
+            "category": "emotes",
+            "monetization_type": "qol",
+            "priority": 0.2784492307692308,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513510"
+          },
+          {
+            "title": "Community-Requested: Enhanced Profile",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "1455041504579180769"
+            ],
+            "category": "profile",
+            "monetization_type": "qol",
+            "priority": 0.2315076923076923,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups."
+            ],
+            "created_at": "2025-12-01T15:35:58.513523"
+          }
+        ],
+        "count": 7
+      },
+      "error": null,
+      "execution_time": 1.430511474609375e-06
+    },
+    {
+      "task_id": "702bac96-c615-41f3-99a5-e88c3c9d340e",
+      "success": true,
+      "output_data": {
+        "proposals": [
+          {
+            "title": "Community-Requested: Enhanced Replay",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "5505780214212392976"
+            ],
+            "category": "replay",
+            "monetization_type": "qol",
+            "priority": 0.7478153846153847,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.",
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable"
+            ],
+            "created_at": "2025-12-01T15:35:58.513475"
+          },
+          {
+            "title": "Community-Requested: Enhanced Social",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-329050704843375976"
+            ],
+            "category": "social",
+            "monetization_type": "cosmetic",
+            "priority": 0.6559384615384616,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+            ],
+            "created_at": "2025-12-01T15:35:58.513488"
+          },
+          {
+            "title": "Community-Requested: Enhanced Customization",
+            "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "2399172018604771826"
+            ],
+            "category": "customization",
+            "monetization_type": "cosmetic",
+            "priority": 0.44126769230769225,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513496"
+          },
+          {
+            "title": "Community-Requested: Enhanced Daily Challenges",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4147500959531896461"
+            ],
+            "category": "daily_challenges",
+            "monetization_type": "qol",
+            "priority": 0.3198030769230769,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [],
+            "created_at": "2025-12-01T15:35:58.513503"
+          },
+          {
+            "title": "Community-Requested: Enhanced Skins",
+            "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-8421236405130980985"
+            ],
+            "category": "skins",
+            "monetization_type": "qol",
+            "priority": 0.2862523076923077,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513515"
+          },
+          {
+            "title": "Community-Requested: Enhanced Emotes",
+            "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4520235339507098737"
+            ],
+            "category": "emotes",
+            "monetization_type": "qol",
+            "priority": 0.2784492307692308,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513510"
+          },
+          {
+            "title": "Community-Requested: Enhanced Profile",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "1455041504579180769"
+            ],
+            "category": "profile",
+            "monetization_type": "qol",
+            "priority": 0.2315076923076923,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups."
+            ],
+            "created_at": "2025-12-01T15:35:58.513523"
+          }
+        ],
+        "validation": {
+          "total_proposals": 7,
+          "compliant_proposals": 7,
+          "compliance_rate": 1.0,
+          "results": [
+            {
+              "proposal_title": "Community-Requested: Enhanced Replay",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            },
+            {
+              "proposal_title": "Community-Requested: Enhanced Social",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            },
+            {
+              "proposal_title": "Community-Requested: Enhanced Customization",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            },
+            {
+              "proposal_title": "Community-Requested: Enhanced Daily Challenges",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            },
+            {
+              "proposal_title": "Community-Requested: Enhanced Skins",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            },
+            {
+              "proposal_title": "Community-Requested: Enhanced Emotes",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            },
+            {
+              "proposal_title": "Community-Requested: Enhanced Profile",
+              "f2p_compliant": true,
+              "checks": [
+                {
+                  "passed": true,
+                  "guardrail": "no_pay_to_win",
+                  "message": "No pay-to-win mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "cosmetic_only",
+                  "message": "Monetization type is acceptable",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_gameplay_advantage",
+                  "message": "No gameplay advantage in paid content",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "fair_progression",
+                  "message": "Progression appears fair for all players",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "transparent_odds",
+                  "message": "No undisclosed random elements",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "no_loot_boxes",
+                  "message": "No loot box mechanics detected",
+                  "suggestions": []
+                },
+                {
+                  "passed": true,
+                  "guardrail": "accessible_content",
+                  "message": "Core content appears accessible to all players",
+                  "suggestions": []
+                }
+              ]
+            }
+          ]
+        },
+        "compliant_count": 7,
+        "total_count": 7
+      },
+      "error": null,
+      "execution_time": 0.0001723766326904297
+    },
+    {
+      "task_id": "4bd91062-801a-493d-8a71-d32cc98647ad",
+      "success": true,
+      "output_data": {
+        "proposals": [
+          {
+            "title": "Community-Requested: Enhanced Replay",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "5505780214212392976"
+            ],
+            "category": "replay",
+            "monetization_type": "qol",
+            "priority": 0.7478153846153847,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.",
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable"
+            ],
+            "created_at": "2025-12-01T15:35:58.513475"
+          },
+          {
+            "title": "Community-Requested: Enhanced Social",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-329050704843375976"
+            ],
+            "category": "social",
+            "monetization_type": "cosmetic",
+            "priority": 0.6559384615384616,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+            ],
+            "created_at": "2025-12-01T15:35:58.513488"
+          },
+          {
+            "title": "Community-Requested: Enhanced Customization",
+            "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "2399172018604771826"
+            ],
+            "category": "customization",
+            "monetization_type": "cosmetic",
+            "priority": 0.44126769230769225,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513496"
+          },
+          {
+            "title": "Community-Requested: Enhanced Daily Challenges",
+            "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4147500959531896461"
+            ],
+            "category": "daily_challenges",
+            "monetization_type": "qol",
+            "priority": 0.3198030769230769,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [],
+            "created_at": "2025-12-01T15:35:58.513503"
+          },
+          {
+            "title": "Community-Requested: Enhanced Skins",
+            "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-8421236405130980985"
+            ],
+            "category": "skins",
+            "monetization_type": "qol",
+            "priority": 0.2862523076923077,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513515"
+          },
+          {
+            "title": "Community-Requested: Enhanced Emotes",
+            "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "-4520235339507098737"
+            ],
+            "category": "emotes",
+            "monetization_type": "qol",
+            "priority": 0.2784492307692308,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            ],
+            "created_at": "2025-12-01T15:35:58.513510"
+          },
+          {
+            "title": "Community-Requested: Enhanced Profile",
+            "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
+            "source_insights": [
+              "1455041504579180769"
+            ],
+            "category": "profile",
+            "monetization_type": "qol",
+            "priority": 0.2315076923076923,
+            "f2p_compliant": true,
+            "guardrail_notes": [],
+            "comparative_notes": [
+              "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
+              "[Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups."
+            ],
+            "created_at": "2025-12-01T15:35:58.513523"
+          }
+        ],
+        "competitive_report": {
+          "total_insights": 6,
+          "f2p_adaptable": 5,
+          "to_avoid": 1,
+          "categories": {
+            "social": 1,
+            "customization": 1,
+            "events": 1,
+            "progression": 1,
+            "monetization": 1,
+            "content": 1
+          },
+          "insights": [
+            {
+              "source_game": "Age of Origins",
+              "feature_category": "social",
+              "description": "Alliance/Guild System with territory control",
+              "pros": [
+                "Strong social engagement",
+                "Cooperative gameplay",
+                "Long-term retention"
+              ],
+              "cons": [
+                "Can create power imbalances",
+                "VIP systems give unfair advantages"
+              ],
+              "f2p_adaptable": true,
+              "adaptation_notes": "Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+            },
+            {
+              "source_game": "Age of Origins",
+              "feature_category": "customization",
+              "description": "Commander/Hero customization and skins",
+              "pros": [
+                "High player attachment",
+                "Good monetization potential",
+                "Visual differentiation"
+              ],
+              "cons": [
+                "Often tied to stat bonuses"
+              ],
+              "f2p_adaptable": true,
+              "adaptation_notes": "Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            },
+            {
+              "source_game": "Age of Origins",
+              "feature_category": "events",
+              "description": "Regular seasonal events with exclusive rewards",
+              "pros": [
+                "Keeps game fresh",
+                "Engagement spikes",
+                "Community participation"
+              ],
+              "cons": [
+                "FOMO tactics in limited exclusives",
+                "Event passes can be expensive"
+              ],
+              "f2p_adaptable": true,
+              "adaptation_notes": "Run events with cosmetic rewards. Bring back seasonal items in future. No FOMO pressure."
+            },
+            {
+              "source_game": "Age of Origins",
+              "feature_category": "progression",
+              "description": "Multiple progression systems (base, heroes, tech)",
+              "pros": [
+                "Deep gameplay systems",
+                "Long-term goals",
+                "Varied gameplay"
+              ],
+              "cons": [
+                "Can be pay-to-progress faster",
+                "Overwhelming complexity"
+              ],
+              "f2p_adaptable": true,
+              "adaptation_notes": "Multiple progression paths but equal time investment for all players. No paid speedups."
+            },
+            {
+              "source_game": "Age of Origins",
+              "feature_category": "monetization",
+              "description": "VIP system with subscription benefits",
+              "pros": [
+                "Predictable revenue",
+                "Player commitment"
+              ],
+              "cons": [
+                "Creates class divide",
+                "Often includes gameplay advantages"
+              ],
+              "f2p_adaptable": false,
+              "adaptation_notes": "Avoid VIP systems entirely. Use battle pass with purely cosmetic rewards instead."
+            },
+            {
+              "source_game": "Age of Origins",
+              "feature_category": "content",
+              "description": "Regular content updates with new zones/modes",
+              "pros": [
+                "Keeps game fresh",
+                "New challenges",
+                "Returning players"
+              ],
+              "cons": [
+                "New content can invalidate old progression"
+              ],
+              "f2p_adaptable": true,
+              "adaptation_notes": "Regular free content updates. New content should complement, not replace existing progression."
+            }
+          ],
+          "recommendations": [
+            {
+              "category": "social",
+              "recommendation": "Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
+            },
+            {
+              "category": "customization",
+              "recommendation": "Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
+            },
+            {
+              "category": "events",
+              "recommendation": "Run events with cosmetic rewards. Bring back seasonal items in future. No FOMO pressure."
+            },
+            {
+              "category": "progression",
+              "recommendation": "Multiple progression paths but equal time investment for all players. No paid speedups."
+            },
+            {
+              "category": "content",
+              "recommendation": "Regular free content updates. New content should complement, not replace existing progression."
+            }
+          ],
+          "avoid_patterns": [
+            {
+              "feature": "VIP system with subscription benefits",
+              "reason": "Creates class divide, Often includes gameplay advantages"
+            }
+          ]
+        }
+      },
+      "error": null,
+      "execution_time": 0.00010919570922851562
+    },
+    {
+      "task_id": "70765035-d3b3-4f46-babc-eaaccb19ee9c",
+      "success": true,
+      "output_data": {
+        "issues": [
+          {
+            "title": "[Feature] Community-Requested: Enhanced Replay",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** replay\n- **Priority Score:** 0.75\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog - High Priority",
+            "priority": "high",
+            "created_at": "2025-12-01T15:35:58.514114"
+          },
+          {
+            "title": "[Feature] Community-Requested: Enhanced Social",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** social\n- **Priority Score:** 0.66\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "social-features",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog - High Priority",
+            "priority": "medium",
+            "created_at": "2025-12-01T15:35:58.514126"
+          },
+          {
+            "title": "[Feature] Community-Requested: Enhanced Customization",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** customization\n- **Priority Score:** 0.44\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "customization",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog",
+            "priority": "medium",
+            "created_at": "2025-12-01T15:35:58.514133"
+          },
+          {
+            "title": "[Feature] Community-Requested: Enhanced Daily Challenges",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** daily_challenges\n- **Priority Score:** 0.32\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog",
+            "priority": "low",
+            "created_at": "2025-12-01T15:35:58.514138"
+          },
+          {
+            "title": "[Feature] Community-Requested: Enhanced Skins",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** skins\n- **Priority Score:** 0.29\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog",
+            "priority": "low",
+            "created_at": "2025-12-01T15:35:58.514143"
+          },
+          {
+            "title": "[Feature] Community-Requested: Enhanced Emotes",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** emotes\n- **Priority Score:** 0.28\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog",
+            "priority": "low",
+            "created_at": "2025-12-01T15:35:58.514147"
+          },
+          {
+            "title": "[Feature] Community-Requested: Enhanced Profile",
+            "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** profile\n- **Priority Score:** 0.23\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+            "labels": [
+              "community-driven",
+              "auto-generated",
+              "enhancement",
+              "f2p-approved"
+            ],
+            "assignees": [],
+            "milestone": "Backlog",
+            "priority": "low",
+            "created_at": "2025-12-01T15:35:58.514152"
+          }
+        ],
+        "issue_report": {
+          "total_issues": 7,
+          "by_priority": {
+            "high": 1,
+            "medium": 2,
+            "low": 4
+          },
+          "issues": [
+            {
+              "title": "[Feature] Community-Requested: Enhanced Replay",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** replay\n- **Priority Score:** 0.75\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog - High Priority",
+              "priority": "high",
+              "created_at": "2025-12-01T15:35:58.514114"
+            },
+            {
+              "title": "[Feature] Community-Requested: Enhanced Social",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** social\n- **Priority Score:** 0.66\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "social-features",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog - High Priority",
+              "priority": "medium",
+              "created_at": "2025-12-01T15:35:58.514126"
+            },
+            {
+              "title": "[Feature] Community-Requested: Enhanced Customization",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** customization\n- **Priority Score:** 0.44\n- **Monetization Type:** cosmetic\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "customization",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog",
+              "priority": "medium",
+              "created_at": "2025-12-01T15:35:58.514133"
+            },
+            {
+              "title": "[Feature] Community-Requested: Enhanced Daily Challenges",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** daily_challenges\n- **Priority Score:** 0.32\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog",
+              "priority": "low",
+              "created_at": "2025-12-01T15:35:58.514138"
+            },
+            {
+              "title": "[Feature] Community-Requested: Enhanced Skins",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** skins\n- **Priority Score:** 0.29\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog",
+              "priority": "low",
+              "created_at": "2025-12-01T15:35:58.514143"
+            },
+            {
+              "title": "[Feature] Community-Requested: Enhanced Emotes",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** emotes\n- **Priority Score:** 0.28\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog",
+              "priority": "low",
+              "created_at": "2025-12-01T15:35:58.514147"
+            },
+            {
+              "title": "[Feature] Community-Requested: Enhanced Profile",
+              "body": "## Summary\n\nBased on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.\n\n## Details\n\n- **Category:** profile\n- **Priority Score:** 0.23\n- **Monetization Type:** qol\n- **F2P Compliant:** \u2705 Yes\n\n## Source\n\nThis feature was generated from community feedback analysis.\n- **Source Insights:** 1 community inputs\n\n## Competitive Analysis\n\n- [Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.\n- [Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups.\n\n## Acceptance Criteria\n\n- [ ] Feature implemented as described\n- [ ] F2P guardrails validated\n- [ ] No gameplay advantages for paid content\n- [ ] Unit tests added\n- [ ] Documentation updated\n\n---\n\n*This issue was auto-generated by the Thirsty's Game Studio Agent System.*\n",
+              "labels": [
+                "community-driven",
+                "auto-generated",
+                "enhancement",
+                "f2p-approved"
+              ],
+              "assignees": [],
+              "milestone": "Backlog",
+              "priority": "low",
+              "created_at": "2025-12-01T15:35:58.514152"
+            }
+          ]
+        },
+        "count": 7
+      },
+      "error": null,
+      "execution_time": 9.584426879882812e-05
+    }
+  ]
+}

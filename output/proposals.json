@@ -3,7 +3,7 @@
     "title": "Community-Requested: Enhanced Replay",
     "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add a replay system and theater mode.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "-3816934341576173894"
+      "-7122848939604359635"
     ],
     "category": "replay",
     "monetization_type": "qol",
@@ -15,13 +15,13 @@
       "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
       "[Age of Origins] AVOID: VIP system with subscription benefits - not F2P adaptable"
     ],
-    "created_at": "2025-12-22T06:45:43.748865"
+    "created_at": "2025-12-23T06:45:12.647688"
   },
   {
     "title": "Community-Requested: Enhanced Social",
     "description": "Based on community feedback from 1 users:\n\n- Can we get a guild/clan system? Would make the game more social without any pay-to-win elements.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "3882211932831531385"
+      "8107365290186183913"
     ],
     "category": "social",
     "monetization_type": "cosmetic",
@@ -31,13 +31,13 @@
     "comparative_notes": [
       "[Age of Origins] social: Implement guild system without pay-to-win territory bonuses. Focus on cosmetic guild customization."
     ],
-    "created_at": "2025-12-22T06:45:43.748881"
+    "created_at": "2025-12-23T06:45:12.647705"
   },
   {
     "title": "Community-Requested: Enhanced Customization",
     "description": "Based on community feedback from 1 users:\n\n- Would love to see more character customization options! Maybe different armor styles that don't affect stats?\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "4818611409735899088"
+      "-657138721782011514"
     ],
     "category": "customization",
     "monetization_type": "cosmetic",
@@ -47,13 +47,13 @@
     "comparative_notes": [
       "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
     ],
-    "created_at": "2025-12-22T06:45:43.748891"
+    "created_at": "2025-12-23T06:45:12.647715"
   },
   {
     "title": "Community-Requested: Enhanced Daily Challenges",
     "description": "Based on community feedback from 1 users:\n\n- Suggestion: Add daily challenges for earning cosmetic currency.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "8156284715472279262"
+      "8128454797351669405"
     ],
     "category": "daily_challenges",
     "monetization_type": "qol",
@@ -61,13 +61,13 @@
     "f2p_compliant": true,
     "guardrail_notes": [],
     "comparative_notes": [],
-    "created_at": "2025-12-22T06:45:43.748902"
+    "created_at": "2025-12-23T06:45:12.647727"
   },
   {
     "title": "Community-Requested: Enhanced Skins",
     "description": "Based on community feedback from 1 users:\n\n- Great game! Would love to see more weapon skins.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "-3595745401574704954"
+      "113807934803640866"
     ],
     "category": "skins",
     "monetization_type": "qol",
@@ -77,13 +77,13 @@
     "comparative_notes": [
       "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
     ],
-    "created_at": "2025-12-22T06:45:43.748927"
+    "created_at": "2025-12-23T06:45:12.647752"
   },
   {
     "title": "Community-Requested: Enhanced Emotes",
     "description": "Based on community feedback from 1 users:\n\n- Would be cool to have emote wheel customization.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "-2085362217863582120"
+      "4726542471047699350"
     ],
     "category": "emotes",
     "monetization_type": "qol",
@@ -93,13 +93,13 @@
     "comparative_notes": [
       "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all."
     ],
-    "created_at": "2025-12-22T06:45:43.748916"
+    "created_at": "2025-12-23T06:45:12.647741"
   },
   {
     "title": "Community-Requested: Enhanced Profile",
     "description": "Based on community feedback from 1 users:\n\n- Can we get more profile customization? Banners, borders, titles - all cosmetic stuff that shows progression.\n\nThis feature would enhance the player experience while maintaining our F2P-friendly approach.\nEngagement metrics suggest high community interest in this area.",
     "source_insights": [
-      "-2218626623180188929"
+      "1935520474423878302"
     ],
     "category": "profile",
     "monetization_type": "qol",
@@ -110,6 +110,6 @@
       "[Age of Origins] customization: Offer cosmetic-only commander skins. Any stat-affecting commanders should be earnable by all.",
       "[Age of Origins] progression: Multiple progression paths but equal time investment for all players. No paid speedups."
     ],
-    "created_at": "2025-12-22T06:45:43.748936"
+    "created_at": "2025-12-23T06:45:12.647761"
   }
 ]

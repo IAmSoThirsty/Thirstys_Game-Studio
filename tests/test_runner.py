@@ -6,7 +6,6 @@ from agent.runner import main
 
 def test_runner_imports():
     """Test that the runner module can be imported."""
-    from agent.runner import main
     assert main is not None
 
 

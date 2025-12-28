@@ -23,8 +23,6 @@ services:
     volumes:
       # Mount output directory for artifacts
       - ./output:/app/output
-      # Mount agent source for development (comment out for production)
-      - ./agent:/app/agent:ro
     networks:
       - game-studio-network
     restart: unless-stopped

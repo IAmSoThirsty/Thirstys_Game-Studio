@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  # Main agent service
+  agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: thirsty-game-studio-agent
+    image: thirsty-game-studio-agent:latest
+    environment:
+      # Agent configuration
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - OUTPUT_DIR=/app/output
+      
+      # API Keys (set in .env file)
+      - REDDIT_CLIENT_ID=${REDDIT_CLIENT_ID:-}
+      - REDDIT_CLIENT_SECRET=${REDDIT_CLIENT_SECRET:-}
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN:-}
+      - DISCORD_GUILD_ID=${DISCORD_GUILD_ID:-}
+      - STEAM_API_KEY=${STEAM_API_KEY:-}
+      - STEAM_APP_ID=${STEAM_APP_ID:-}
+    volumes:
+      # Mount output directory for artifacts
+      - ./output:/app/output
+    networks:
+      - game-studio-network
+    restart: unless-stopped
+    command: ["--output-dir", "/app/output", "--log-level", "${LOG_LEVEL:-INFO}"]
+
+  # Optional: Development service with shell access
+  agent-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: thirsty-game-studio-agent-dev
+    image: thirsty-game-studio-agent:latest
+    environment:
+      - LOG_LEVEL=DEBUG
+      - OUTPUT_DIR=/app/output
+      - REDDIT_CLIENT_ID=${REDDIT_CLIENT_ID:-}
+      - REDDIT_CLIENT_SECRET=${REDDIT_CLIENT_SECRET:-}
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN:-}
+      - DISCORD_GUILD_ID=${DISCORD_GUILD_ID:-}
+      - STEAM_API_KEY=${STEAM_API_KEY:-}
+      - STEAM_APP_ID=${STEAM_APP_ID:-}
+    volumes:
+      - ./output:/app/output
+      - ./agent:/app/agent
+      - ./tests:/app/tests
+    networks:
+      - game-studio-network
+    profiles:
+      - dev
+    entrypoint: ["/bin/bash"]
+    stdin_open: true
+    tty: true
+
+networks:
+  game-studio-network:
+    driver: bridge
+    name: game-studio-network
+
+volumes:
+  output-data:
+    name: game-studio-output

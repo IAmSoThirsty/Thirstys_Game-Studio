@@ -8,6 +8,7 @@ import logging
 import time
 from agent.core.interfaces import (
     AgentRole,
+    FeatureProposal,
     Task,
     TaskResult,
     Worker,
@@ -102,7 +103,6 @@ class FeatureDesignerWorker(Worker):
             # If no proposals from dependencies, get from serialized data
             if not proposals:
                 proposal_dicts = task.input_data.get("proposals", [])
-                from agent.core.interfaces import FeatureProposal
 
                 proposals = [FeatureProposal.from_dict(p) for p in proposal_dicts]
 
@@ -156,7 +156,6 @@ class MonetizationReviewerWorker(Worker):
             # If no proposals from dependencies, get from serialized data
             if not proposals:
                 proposal_dicts = task.input_data.get("proposals", [])
-                from agent.core.interfaces import FeatureProposal
 
                 proposals = [FeatureProposal.from_dict(p) for p in proposal_dicts]
 
@@ -215,7 +214,6 @@ class ComparativeAnalystWorker(Worker):
             # If no proposals from dependencies, get from serialized data
             if not proposals:
                 proposal_dicts = task.input_data.get("proposals", [])
-                from agent.core.interfaces import FeatureProposal
 
                 proposals = [FeatureProposal.from_dict(p) for p in proposal_dicts]
 
@@ -275,7 +273,6 @@ class IssueDrafterWorker(Worker):
             # If no proposals from dependencies, get from serialized data
             if not proposals:
                 proposal_dicts = task.input_data.get("proposals", [])
-                from agent.core.interfaces import FeatureProposal
 
                 proposals = [FeatureProposal.from_dict(p) for p in proposal_dicts]
 
@@ -335,7 +332,6 @@ class PRCreatorWorker(Worker):
             # If no proposals from dependencies, get from serialized data
             if not proposals:
                 proposal_dicts = task.input_data.get("proposals", [])
-                from agent.core.interfaces import FeatureProposal
 
                 proposals = [FeatureProposal.from_dict(p) for p in proposal_dicts]
 

@@ -85,8 +85,6 @@ web/
 
 # Output artifacts (generated at runtime)
 output/
-*.json
-!pyproject.toml
 
 # Docker files themselves
 Dockerfile

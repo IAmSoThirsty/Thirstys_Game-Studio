@@ -1,0 +1,102 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# CI/CD
+.github
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+tests/
+*.test
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Android
+android/
+app/
+build.gradle
+settings.gradle
+gradlew
+gradlew.bat
+gradle/
+*.apk
+*.aab
+.gradle/
+
+# Other language interfaces (not needed for Python agent)
+cpp/
+dotnet/
+web/
+
+# Output artifacts (generated at runtime)
+output/
+*.json
+!pyproject.toml
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Setup scripts (not needed in container)
+setup.sh
+setup.ps1
+Makefile
+
+# Development dependencies
+requirements-dev.txt

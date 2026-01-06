@@ -97,6 +97,3 @@ docker-compose.yml
 setup.sh
 setup.ps1
 Makefile
-
-# Development dependencies
-requirements-dev.txt

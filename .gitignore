@@ -144,9 +144,6 @@ dmypy.json
 .vscode/
 .idea/
 
-# Docker
-.dockerignore
-
 # Testing
 /coverage/
 /.nyc_output/

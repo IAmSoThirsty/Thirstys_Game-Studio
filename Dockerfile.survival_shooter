@@ -1,0 +1,62 @@
+# Multi-stage Dockerfile for Survival Shooter Game Server
+FROM python:3.12-slim as builder
+
+LABEL org.opencontainers.image.title="Thirsty's Survival Shooter Server"
+LABEL org.opencontainers.image.description="Production-grade multiplayer survival shooter game server"
+LABEL org.opencontainers.image.authors="Thirsty's Game Studio"
+LABEL org.opencontainers.image.source="https://github.com/IAmSoThirsty/Thirstys_Game-Studio"
+
+# Install build dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /build
+
+# Copy and install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir --user -r requirements.txt
+
+# Production stage
+FROM python:3.12-slim
+
+# Install runtime dependencies
+RUN apt-get update && apt-get install -y \
+    libpq5 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create non-root user
+RUN useradd -m -u 1000 gameserver && \
+    mkdir -p /app /data /logs && \
+    chown -R gameserver:gameserver /app /data /logs
+
+WORKDIR /app
+
+# Copy installed packages from builder
+COPY --from=builder /root/.local /home/gameserver/.local
+
+# Copy application code
+COPY --chown=gameserver:gameserver app/ ./app/
+COPY --chown=gameserver:gameserver requirements.txt .
+
+# Set environment
+ENV PATH=/home/gameserver/.local/bin:$PATH
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV SERVER_MODE=production
+ENV DB_PATH=/data/game.db
+
+# Switch to non-root user
+USER gameserver
+
+# Expose ports
+EXPOSE 8765
+EXPOSE 8080
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+    CMD python -c "import socket; s=socket.socket(); s.settimeout(2); s.connect(('localhost', 8765)); s.close()" || exit 1
+
+# Run the game server
+CMD ["python", "-m", "app.survival_shooter.server"]

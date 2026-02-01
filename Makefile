@@ -1,4 +1,4 @@
-.PHONY: help install install-dev setup clean test lint format run docker-build docker-run docker-clean venv game-build game-run game-docker deploy-all
+.PHONY: help install install-dev setup clean test lint format run docker-build docker-run docker-clean venv game-build game-run game-docker deploy-all survival-server survival-client survival-build survival-deploy
 
 # Default target
 help:
@@ -13,9 +13,12 @@ help:
 	@echo ""
 	@echo "Development:"
 	@echo "  make run           - Run the agent system"
-	@echo "  make game-run      - Run the game"
+	@echo "  make game-run      - Run the idle game"
+	@echo "  make survival-server - Run survival shooter server"
+	@echo "  make survival-client - Run survival shooter client"
 	@echo "  make test          - Run all tests"
 	@echo "  make test-game     - Run game tests only"
+	@echo "  make test-survival - Run survival shooter tests"
 	@echo "  make lint          - Run linters"
 	@echo "  make format        - Format code with black"
 	@echo "  make clean         - Clean build artifacts"
@@ -26,8 +29,10 @@ help:
 	@echo "  make docker-clean  - Remove Docker containers/images"
 	@echo ""
 	@echo "Docker - Game:"
-	@echo "  make game-build    - Build game Docker image"
-	@echo "  make game-docker   - Run game in Docker (headless)"
+	@echo "  make game-build    - Build idle game Docker image"
+	@echo "  make game-docker   - Run idle game in Docker (headless)"
+	@echo "  make survival-build - Build survival shooter Docker image"
+	@echo "  make survival-deploy - Deploy survival shooter to K8s"
 	@echo ""
 	@echo "Production Deployment:"
 	@echo "  make deploy-all    - Deploy complete stack (agent + game)"
@@ -194,3 +199,57 @@ android-build:
 	@echo "Building Android app..."
 	@cd android/ThirstysGame && ./gradlew assembleDebug
 	@echo "Android APK built at android/ThirstysGame/app/build/outputs/apk/debug/"
+
+# Run survival shooter server
+survival-server:
+@echo "Starting Survival Shooter Server..."
+@echo "Server will run on ws://localhost:8765"
+@python -m app.survival_shooter.server
+
+# Run survival shooter client
+survival-client:
+@echo "Starting Survival Shooter Client..."
+@echo "Controls: WASD/Arrows=Move, Mouse=Aim, Left Click=Shoot, ESC=Quit"
+@python -m app.survival_shooter.client --name "Player1" --class commando --server ws://localhost:8765
+
+# Test survival shooter
+test-survival:
+@echo "Running survival shooter tests..."
+@pytest tests/test_survival_shooter.py -v --cov=app.survival_shooter --cov-report=term
+
+# Build survival shooter Docker image
+survival-build:
+@echo "Building Survival Shooter Docker image..."
+@docker build -t survival-shooter:latest -f Dockerfile.survival_shooter .
+@echo "Survival Shooter Docker image built"
+
+# Run survival shooter in Docker
+survival-docker: survival-build
+@echo "Running Survival Shooter Server in Docker..."
+@docker run --rm -p 8765:8765 -p 8080:8080 --name survival-server survival-shooter:latest
+
+# Deploy survival shooter to Kubernetes
+survival-deploy:
+@echo "Deploying Survival Shooter to Kubernetes..."
+@kubectl apply -f k8s/survival-shooter-deployment.yaml
+@echo "Waiting for deployment..."
+@kubectl wait --for=condition=available --timeout=300s deployment/survival-shooter-server -n survival-shooter
+@echo ""
+@echo "=========================================="
+@echo "  Survival Shooter Deployed!"
+@echo "=========================================="
+@echo ""
+@echo "Get service URL:"
+@kubectl get svc survival-shooter-service -n survival-shooter
+@echo ""
+@echo "Check pods:"
+@kubectl get pods -n survival-shooter
+@echo ""
+@echo "View logs: kubectl logs -f -l app=survival-shooter -n survival-shooter"
+@echo "Scale: kubectl scale deployment survival-shooter-server --replicas=10 -n survival-shooter"
+
+# Stop survival shooter on Kubernetes
+survival-stop:
+@echo "Stopping Survival Shooter on Kubernetes..."
+@kubectl delete -f k8s/survival-shooter-deployment.yaml
+@echo "Survival Shooter stopped"

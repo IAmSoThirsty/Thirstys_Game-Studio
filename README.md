@@ -1,8 +1,19 @@
 # Thirstys Game Studio
 
-## 🎮 NOW FEATURING: God-Tier Addictive Game!
+## 🎮 TWO PRODUCTION-READY GAMES!
 
+### 1. Energy Empire - Addictive Idle Game ⚡
 **Thirsty's Game - Energy Empire** is a production-ready incremental/idle game with exceptional architecture and addictive gameplay!
+
+### 2. Survival Shooter - Multiplayer Co-op Action 🔫
+**NEW!** **Thirsty's Survival Shooter** is a production-grade multiplayer survival shooter with:
+- 4-player co-op PvE with 100+ player scalability
+- 4 unique classes, 6 themed zones
+- Wave-based survival with zone control
+- Full marketplace with cosmetics
+- Kubernetes-ready deployment
+
+**[📖 See Survival Shooter Documentation →](SURVIVAL_SHOOTER.md)**
 
 ## 🚀 **END-TO-END DEPLOYABLE** - One Command Deployment
 

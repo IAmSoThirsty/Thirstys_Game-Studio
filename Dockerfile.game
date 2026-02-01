@@ -1,0 +1,92 @@
+# Dockerfile for Thirsty's Game - Energy Empire
+# Multi-stage build for optimized production image
+
+# Build stage
+FROM python:3.12-slim as builder
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies for pygame
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    git \
+    libsdl2-dev \
+    libsdl2-image-dev \
+    libsdl2-mixer-dev \
+    libsdl2-ttf-dev \
+    libfreetype6-dev \
+    libportmidi-dev \
+    libjpeg-dev \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements first for better caching
+COPY requirements.txt ./
+
+# Create virtual environment
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Install Python dependencies
+RUN pip install --upgrade pip setuptools wheel && \
+    pip install -r requirements.txt
+
+# Production stage
+FROM python:3.12-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install runtime dependencies for pygame
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libsdl2-2.0-0 \
+    libsdl2-image-2.0-0 \
+    libsdl2-mixer-2.0-0 \
+    libsdl2-ttf-2.0-0 \
+    libfreetype6 \
+    libportmidi0 \
+    libjpeg62-turbo \
+    xvfb \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy virtual environment from builder
+COPY --from=builder /opt/venv /opt/venv
+
+# Set environment variables
+ENV PATH="/opt/venv/bin:$PATH" \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    SDL_VIDEODRIVER=dummy \
+    SDL_AUDIODRIVER=dummy
+
+# Copy application code
+COPY app/*.py ./app/
+COPY main.py ./
+COPY setup.py pyproject.toml README.md ./
+
+# Install the package
+RUN pip install -e .
+
+# Create save directory
+RUN mkdir -p /app/saves
+
+# Set volume for saves
+VOLUME ["/app/saves"]
+
+# Expose port for potential web interface
+EXPOSE 8080
+
+# Default command (headless mode)
+ENTRYPOINT ["python"]
+CMD ["main.py", "--headless"]
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD python -c "import app; print('healthy')" || exit 1
+
+# Labels
+LABEL maintainer="Thirsty's Game Studio"
+LABEL description="Thirsty's Game - Energy Empire (Incremental/Idle Game)"
+LABEL version="1.0.0"

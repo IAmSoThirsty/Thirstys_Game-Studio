@@ -1,3 +1,5 @@
+# .dockerignore for Game Docker build
+
 # Git
 .git
 .gitignore
@@ -37,7 +39,6 @@ venv.bak/
 htmlcov/
 .tox/
 tests/
-*.test
 
 # Type checking
 .mypy_cache/
@@ -66,9 +67,11 @@ logs/
 tmp/
 temp/
 
-# Android
+# Android (KEEP app/*.py but exclude Android build files)
 android/
-app/
+app/build.gradle
+app/proguard-rules.pro
+app/src/
 build.gradle
 settings.gradle
 gradlew
@@ -78,20 +81,26 @@ gradle/
 *.aab
 .gradle/
 
-# Other language interfaces (not needed for Python agent)
+# Other language interfaces
 cpp/
 dotnet/
 web/
 
-# Output artifacts (generated at runtime)
+# Output artifacts
 output/
+saves/
 
-# Docker files themselves
+# Agent system (not needed for game)
+agent/
+
+# Other Dockerfiles
 Dockerfile
 docker-compose.yml
-.dockerignore
 
-# Setup scripts (not needed in container)
+# Setup scripts
 setup.sh
 setup.ps1
 Makefile
+
+# Kubernetes
+k8s/

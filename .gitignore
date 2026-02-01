@@ -157,3 +157,6 @@ logs/
 *.temp
 tmp/
 temp/
+
+# Game save files
+saves/

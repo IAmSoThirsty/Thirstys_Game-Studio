@@ -1,10 +1,10 @@
-# Thirsty's Game Studio Agent Requirements
-# Core dependencies for the agent system
+# Thirsty's Game Studio Requirements
+# Core dependencies for the game and agent system
 
-# No external dependencies required for base functionality
-# The agent system uses only Python standard library
+# Game engine
+pygame>=2.5.0
 
-# Optional dependencies for enhanced functionality:
+# Optional dependencies for enhanced agent functionality:
 # Uncomment as needed when implementing real API integrations
 
 # Reddit API

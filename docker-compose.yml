@@ -28,7 +28,56 @@ services:
     restart: unless-stopped
     command: ["--output-dir", "/app/output", "--log-level", "${LOG_LEVEL:-INFO}"]
 
-  # Optional: Development service with shell access
+  # Thirsty's Game - Energy Empire (Headless Server)
+  game-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.game
+    container_name: thirsty-game-server
+    image: thirsty-game:latest
+    environment:
+      - SDL_VIDEODRIVER=dummy
+      - SDL_AUDIODRIVER=dummy
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount saves directory for persistence
+      - ./saves:/app/saves
+    networks:
+      - game-studio-network
+    restart: unless-stopped
+    profiles:
+      - game
+    healthcheck:
+      test: ["CMD", "python", "-c", "import app; print('healthy')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+  # Thirsty's Game - Development Mode
+  game-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.game
+    container_name: thirsty-game-dev
+    image: thirsty-game:latest
+    environment:
+      - SDL_VIDEODRIVER=dummy
+      - SDL_AUDIODRIVER=dummy
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./saves:/app/saves
+      - ./app:/app/app
+      - ./tests:/app/tests
+    networks:
+      - game-studio-network
+    profiles:
+      - game-dev
+    entrypoint: ["/bin/bash"]
+    stdin_open: true
+    tty: true
+
+  # Optional: Development service with shell access for agent
   agent-dev:
     build:
       context: .
@@ -64,3 +113,5 @@ networks:
 volumes:
   output-data:
     name: game-studio-output
+  game-saves:
+    name: game-studio-saves

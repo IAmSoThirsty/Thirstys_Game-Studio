@@ -24,6 +24,7 @@ from app.systems import (
     ResourceProductionSystem, ResourceConversionSystem, ParticleSystem,
     CooldownSystem, StatsTrackingSystem, AchievementSystem
 )
+from app.save_system import SaveSystem, serialize_game_state, deserialize_game_state
 
 
 @dataclass
@@ -67,6 +68,9 @@ class ThirstysGame:
         self.engine = GameEngine(config)
         self.theme = Theme()
         
+        # Save system
+        self.save_system = SaveSystem()
+        
         # Pygame setup
         if not self.headless:
             pygame.init()
@@ -92,6 +96,9 @@ class ThirstysGame:
         self.selected_tab = "main"  # main, upgrades, achievements, stats
         
         self._setup_game()
+        
+        # Try to load saved game
+        self._try_load_game()
     
     def _setup_game(self):
         """Set up the game entities and systems."""
@@ -242,6 +249,19 @@ class ThirstysGame:
         if not self.headless:
             # Create particle effect
             self._create_particle_burst(640, 100, self.theme.success, 30)
+    
+    def _try_load_game(self):
+        """Try to load saved game."""
+        if self.save_system.has_save():
+            print("ℹ️  Found saved game, loading...")
+            state = self.save_system.load_game()
+            if state:
+                deserialize_game_state(self, state)
+    
+    def save_game(self):
+        """Save the current game state."""
+        state = serialize_game_state(self)
+        self.save_system.save_game(state)
     
     def _create_particle_burst(self, x: float, y: float, color: tuple, count: int = 20):
         """Create a burst of particles."""
@@ -433,6 +453,8 @@ class ThirstysGame:
                         self.selected_tab = "stats"
                     elif event.key == pygame.K_p:
                         self.engine.toggle_pause()
+                    elif event.key == pygame.K_s:
+                        self.save_game()
                     # Quick purchase hotkeys
                     elif event.key == pygame.K_q:
                         self.purchase_producer(0)
@@ -697,6 +719,7 @@ def main():
     print("  - Press Q/W/E/R to purchase producers")
     print("  - Press 1/2/3/4 to switch tabs")
     print("  - Press P to pause")
+    print("  - Press S to save game")
     print("  - Press ESC to quit")
     print()
     

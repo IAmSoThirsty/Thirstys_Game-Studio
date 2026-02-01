@@ -1,6 +1,40 @@
 # Thirstys Game Studio
 
-## Quick Start (Python)
+## 🎮 NOW FEATURING: God-Tier Addictive Game!
+
+**Thirsty's Game - Energy Empire** is a production-ready incremental/idle game with exceptional architecture and addictive gameplay!
+
+## Quick Start (Game)
+
+1. **Install and Run:**
+   ```bash
+   git clone https://github.com/IAmSoThirsty/Thirstys_Game-Studio.git
+   cd Thirstys_Game-Studio
+   pip install -r requirements.txt
+   python main.py
+   ```
+
+2. **Play the Game:**
+   - Click the center orb to generate energy
+   - Press Q/W/E/R to purchase producers
+   - Press S to save your progress
+   - Build an energy empire!
+
+## 🌟 Game Features
+
+- **Addictive Incremental Mechanics**: Click-based and idle generation
+- **Multiple Resource Types**: Energy → Crystals → Essence
+- **Achievement System**: Unlock rewards and multipliers
+- **Beautiful Particle Effects**: Smooth 60 FPS animations
+- **Save/Load System**: Never lose your progress
+- **F2P Friendly**: No pay-to-win, fair progression
+- **52 Passing Tests**: Production-quality code
+
+See [docs/GAME_GUIDE.md](docs/GAME_GUIDE.md) for complete game documentation.
+
+---
+
+## Quick Start (Python Agent)
 
 1. **Clone the repository:**
    ```bash

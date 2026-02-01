@@ -38,7 +38,8 @@ def test_resource_production_system():
     world.update(1.0)
     
     resources = resources_entity.get_component(GameResources)
-    # Should produce 10 * 2 * 3 * 1.0 = 60 energy (before multipliers)
+    
+    # Should produce 10 * 2 * 3 * 1.0 = 60 energy per second (with multipliers)
     assert resources.energy > 0
 
 

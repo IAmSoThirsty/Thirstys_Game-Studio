@@ -330,8 +330,9 @@ class ThirstysGame:
         
         if producer and resources:
             cost = producer.upgrade_cost
-            if resources.can_afford("energy", cost):
-                resources.spend("energy", cost)
+            cost_resource = producer.cost_resource_type
+            if resources.can_afford(cost_resource, cost):
+                resources.spend(cost_resource, cost)
                 producer.level += 1
                 print(f"✅ Upgraded {entity.name} to level {producer.level}")
     
@@ -347,17 +348,19 @@ class ThirstysGame:
         if converter and resources:
             if converter.level == 0:
                 # Initial purchase
-                cost = 1000.0
-                if resources.can_afford("energy", cost):
-                    resources.spend("energy", cost)
+                cost = converter.cost_base
+                cost_resource = converter.cost_resource_type
+                if resources.can_afford(cost_resource, cost):
+                    resources.spend(cost_resource, cost)
                     converter.level = 1
                     converter.enabled = True
                     print(f"✅ Unlocked {entity.name}")
             else:
                 # Upgrade
-                cost = 1000.0 * (1.2 ** converter.level)
-                if resources.can_afford("energy", cost):
-                    resources.spend("energy", cost)
+                cost = converter.upgrade_cost
+                cost_resource = converter.cost_resource_type
+                if resources.can_afford(cost_resource, cost):
+                    resources.spend(cost_resource, cost)
                     converter.level += 1
                     print(f"✅ Upgraded {entity.name} to level {converter.level}")
     

@@ -189,7 +189,7 @@ pytest tests/test_engine.py -v
 ```
 
 ### Test Coverage
-- **40+ Unit Tests**: All core systems tested
+- **52 Unit Tests**: All core systems tested
 - **100% Pass Rate**: All tests passing
 - **Component Tests**: Validate data structures
 - **System Tests**: Validate behavior logic

@@ -24,6 +24,7 @@ class ResourceProducer(Component):
     level: int = 1
     cost_base: float = 10.0
     cost_multiplier: float = 1.15
+    cost_resource_type: str = "energy"  # What resource is used to purchase/upgrade
     
     @property
     def production_rate(self) -> float:
@@ -46,11 +47,19 @@ class ResourceConverter(Component):
     efficiency: float = 1.0
     level: int = 1
     enabled: bool = True
+    cost_base: float = 1000.0
+    cost_multiplier: float = 1.2
+    cost_resource_type: str = "energy"
     
     @property
     def conversion_rate(self) -> float:
         """Calculate effective conversion rate."""
         return (self.output_rate / self.input_rate) * self.efficiency * self.level
+    
+    @property
+    def upgrade_cost(self) -> float:
+        """Calculate cost to upgrade to next level."""
+        return self.cost_base * (self.cost_multiplier ** self.level)
 
 
 @dataclass

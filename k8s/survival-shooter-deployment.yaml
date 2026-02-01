@@ -1,0 +1,249 @@
+---
+# Namespace for Survival Shooter
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: survival-shooter
+  labels:
+    app.kubernetes.io/name: survival-shooter
+    app.kubernetes.io/part-of: gaming-platform
+---
+# ConfigMap for Server Configuration
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: server-config
+  namespace: survival-shooter
+data:
+  SERVER_PORT: "8765"
+  TICK_RATE: "60"
+  MAX_PLAYERS_PER_SERVER: "100"
+  MAX_PLAYERS_PER_SQUAD: "4"
+  LOG_LEVEL: "INFO"
+  PYTHONUNBUFFERED: "1"
+---
+# PersistentVolumeClaim for Game Data
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: game-data-pvc
+  namespace: survival-shooter
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 50Gi
+  storageClassName: standard
+---
+# Deployment for Game Server
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: survival-shooter-server
+  namespace: survival-shooter
+  labels:
+    app: survival-shooter
+    component: server
+    version: v0.1.0
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: survival-shooter
+      component: server
+  template:
+    metadata:
+      labels:
+        app: survival-shooter
+        component: server
+        version: v0.1.0
+    spec:
+      containers:
+      - name: game-server
+        image: ghcr.io/iamsothirsty/survival-shooter:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8765
+          name: game
+          protocol: TCP
+        - containerPort: 8080
+          name: health
+          protocol: TCP
+        envFrom:
+        - configMapRef:
+            name: server-config
+        resources:
+          requests:
+            memory: "1Gi"
+            cpu: "1000m"
+          limits:
+            memory: "4Gi"
+            cpu: "3000m"
+        volumeMounts:
+        - name: game-data
+          mountPath: /data
+        - name: logs
+          mountPath: /logs
+        livenessProbe:
+          tcpSocket:
+            port: 8765
+          initialDelaySeconds: 15
+          periodSeconds: 30
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          tcpSocket:
+            port: 8765
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+      volumes:
+      - name: game-data
+        persistentVolumeClaim:
+          claimName: game-data-pvc
+      - name: logs
+        emptyDir: {}
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+---
+# Service for Game Server
+apiVersion: v1
+kind: Service
+metadata:
+  name: survival-shooter-service
+  namespace: survival-shooter
+  labels:
+    app: survival-shooter
+    component: server
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 8765
+    targetPort: 8765
+    protocol: TCP
+    name: game
+  - port: 8080
+    targetPort: 8080
+    protocol: TCP
+    name: health
+  selector:
+    app: survival-shooter
+    component: server
+  sessionAffinity: ClientIP
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 3600
+---
+# HorizontalPodAutoscaler for Game Server
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: survival-shooter-hpa
+  namespace: survival-shooter
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: survival-shooter-server
+  minReplicas: 3
+  maxReplicas: 20
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: Utilization
+        averageUtilization: 80
+  behavior:
+    scaleDown:
+      stabilizationWindowSeconds: 300
+      policies:
+      - type: Percent
+        value: 25
+        periodSeconds: 60
+    scaleUp:
+      stabilizationWindowSeconds: 60
+      policies:
+      - type: Percent
+        value: 100
+        periodSeconds: 30
+      - type: Pods
+        value: 3
+        periodSeconds: 30
+      selectPolicy: Max
+---
+# Deployment for Matchmaking Service
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: matchmaking-service
+  namespace: survival-shooter
+  labels:
+    app: survival-shooter
+    component: matchmaking
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: survival-shooter
+      component: matchmaking
+  template:
+    metadata:
+      labels:
+        app: survival-shooter
+        component: matchmaking
+    spec:
+      containers:
+      - name: matchmaking
+        image: ghcr.io/iamsothirsty/survival-shooter-matchmaking:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8000
+          name: http
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+---
+# Service for Matchmaking
+apiVersion: v1
+kind: Service
+metadata:
+  name: matchmaking-service
+  namespace: survival-shooter
+spec:
+  type: ClusterIP
+  ports:
+  - port: 8000
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: survival-shooter
+    component: matchmaking
+---
+# ServiceMonitor for Prometheus (if using Prometheus Operator)
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: survival-shooter-metrics
+  namespace: survival-shooter
+spec:
+  selector:
+    matchLabels:
+      app: survival-shooter
+  endpoints:
+  - port: health
+    interval: 30s
+    path: /metrics

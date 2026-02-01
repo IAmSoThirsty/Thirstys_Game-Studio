@@ -4,6 +4,24 @@
 
 **Thirsty's Game - Energy Empire** is a production-ready incremental/idle game with exceptional architecture and addictive gameplay!
 
+## 🚀 **END-TO-END DEPLOYABLE** - One Command Deployment
+
+Deploy the complete stack with a single command:
+
+```bash
+make deploy-all
+```
+
+This deploys:
+- ✅ Game server (headless mode)
+- ✅ Agent system (community insights)
+- ✅ Persistent storage
+- ✅ Health monitoring
+- ✅ Auto-scaling (Kubernetes)
+- ✅ Complete monitoring
+
+**See [DEPLOYMENT_COMPLETE.md](DEPLOYMENT_COMPLETE.md) for full deployment guide.**
+
 ## Quick Start (Game)
 
 1. **Install and Run:**

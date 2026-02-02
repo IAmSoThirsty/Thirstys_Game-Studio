@@ -6,7 +6,7 @@
 **Thirsty's Game - Energy Empire** is a production-ready incremental/idle game with exceptional architecture and addictive gameplay!
 
 ### 2. Survival Shooter - Multiplayer Co-op Action 🔫
-**NEW!** **Thirsty's Survival Shooter** is a production-grade multiplayer survival shooter with:
+**NEW!** **Blood-Thirsty** is a production-grade multiplayer survival shooter with:
 - 4-player co-op PvE with 100+ player scalability
 - 4 unique classes, 6 themed zones
 - Wave-based survival with zone control

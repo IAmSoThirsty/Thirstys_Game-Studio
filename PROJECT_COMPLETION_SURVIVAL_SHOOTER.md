@@ -1,4 +1,4 @@
-# 🎮 Project Completion Report: Survival Shooter Implementation
+# 🎮 Project Completion Report: Blood-Thirsty Implementation
 
 ## Executive Summary
 

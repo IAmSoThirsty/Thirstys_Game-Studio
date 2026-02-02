@@ -1,4 +1,4 @@
-# 🎮 Thirsty's Survival Shooter
+# 🎮 Blood-Thirsty
 
 A production-grade, multiplayer survival shooter featuring:
 - **4-player co-op PvE** with scalability to 100+ concurrent players

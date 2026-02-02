@@ -58,7 +58,7 @@ class GameClient:
         if PYGAME_AVAILABLE:
             pygame.init()
             self.screen = pygame.display.set_mode((self.screen_width, self.screen_height))
-            pygame.display.set_caption("Thirsty's Survival Shooter")
+            pygame.display.set_caption("Blood-Thirsty")
             self.clock = pygame.time.Clock()
             self.font = pygame.font.Font(None, 24)
             self.font_large = pygame.font.Font(None, 48)

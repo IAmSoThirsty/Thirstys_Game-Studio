@@ -1,8 +1,8 @@
-# Survival Shooter Game - Complete Documentation
+# Blood-Thirsty Game - Complete Documentation
 
 ## 🎮 Game Overview
 
-**Thirsty's Survival Shooter** is a production-grade, multiplayer survival shooter featuring:
+**Blood-Thirsty** is a production-grade, multiplayer survival shooter featuring:
 - 4-player co-op PvE gameplay
 - Wave-based survival mechanics
 - Hold-the-zone objectives with rescue bus system

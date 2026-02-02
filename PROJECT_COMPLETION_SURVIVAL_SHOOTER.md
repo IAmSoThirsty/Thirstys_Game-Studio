@@ -360,7 +360,7 @@ This implementation successfully delivers a **production-grade foundation** for 
 - **Security**: 0 vulnerabilities
 - **Deployment**: Kubernetes-ready with HPA
 - **Performance**: 60 TPS, 100+ players per server
-- **Marketplace**: 15+ items, $0.49 - $10.00
+- **Marketplace**: 15+ items, $0.99 - $10.00
 - **Classes**: 4 unique classes
 - **Zones**: 6 themed zones
 

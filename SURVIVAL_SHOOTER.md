@@ -115,7 +115,7 @@ make survival-stop
 - XP Coffee Boost: 2x XP for 24 hours
 - Currency Coffee Boost: 1.5x currency for 24 hours
 
-### Micro Items ($0.49 - $0.99)
+### Micro Items ($0.99)
 - Instant Revive, Ammo Packs
 
 ### Character Skins ($3.99 - $4.99)

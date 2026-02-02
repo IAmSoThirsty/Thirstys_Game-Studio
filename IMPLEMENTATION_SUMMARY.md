@@ -69,7 +69,7 @@ Each zone includes:
 - **$10.00 Premium Packs**: Ultimate Warrior Pack (all class skins + boosts)
 - **$5.00 Starter Packs**: Beginner's Advantage (currency + boosts)
 - **$1.99 Coffee Boosts**: 24-hour XP/currency boosts
-- **$0.49-$0.99 Micro Items**: Instant revives, ammo packs
+- **$0.99 Micro Items**: Instant revives, ammo packs
 - **$3.99-$4.99 Character Skins**: 8 class skins (level-gated)
 - **$2.99 Weapon Skins**: Golden Arsenal, Plasma weapons
 

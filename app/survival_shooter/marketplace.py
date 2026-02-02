@@ -98,7 +98,7 @@ MARKETPLACE_ITEMS = [
         tags=["coffee", "boost", "currency"]
     ),
     
-    # Micro Boosts (sub $1)
+    # Micro Boosts
     MarketplaceItem(
         id="micro_revive",
         name="Instant Revive",
@@ -113,7 +113,7 @@ MARKETPLACE_ITEMS = [
         name="Ammo Pack",
         description="Full ammo refill for all weapons",
         item_type=ItemType.BOOST,
-        price=0.49,
+        price=0.99,
         tags=["micro", "consumable"]
     ),
     

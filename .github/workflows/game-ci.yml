@@ -48,7 +48,7 @@ jobs:
       
       - name: Run game tests
         run: |
-          pytest tests/test_engine.py tests/test_components.py tests/test_systems.py tests/test_save_system.py -v --cov=app --cov-report=xml --cov-report=term
+          pytest tests/test_engine.py tests/test_components.py tests/test_systems.py tests/test_save_system.py tests/test_survival_shooter.py -v --cov=app --cov-report=xml --cov-report=term
       
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3

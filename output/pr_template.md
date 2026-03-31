@@ -1,7 +1,7 @@
 # feat: Agent-generated proposals (7 features)
 
 **Base Branch:** main
-**Head Branch:** feature/agent-run-20260330-064912
+**Head Branch:** feature/agent-run-20260331-063939
 **Labels:** agent-generated, needs-review, f2p-approved
 
 ---

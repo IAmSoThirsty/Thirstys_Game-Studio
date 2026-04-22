@@ -3,12 +3,21 @@ Unit tests for survival shooter core systems.
 """
 import pytest
 import asyncio
+import random
 from app.survival_shooter.entities import (
     Player, Enemy, Zone, Vector2, GameState, Squad, RescueBus
 )
 from app.survival_shooter.config import GameConfig, PLAYER_CLASSES, ZONES
 from app.survival_shooter.systems import WaveManager, ZoneManager
 from app.survival_shooter.marketplace import Marketplace, ItemType
+
+
+@pytest.fixture(autouse=True)
+def seed_random():
+    """Ensure deterministic random output for all tests in this module."""
+    random.seed(42)
+    yield
+    random.seed()
 
 
 class TestVector2:

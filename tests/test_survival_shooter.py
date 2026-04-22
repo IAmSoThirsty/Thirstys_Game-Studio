@@ -15,9 +15,10 @@ from app.survival_shooter.marketplace import Marketplace, ItemType
 @pytest.fixture(autouse=True)
 def seed_random():
     """Ensure deterministic random output for all tests in this module."""
+    state = random.getstate()
     random.seed(42)
     yield
-    random.seed()
+    random.setstate(state)
 
 
 class TestVector2:
